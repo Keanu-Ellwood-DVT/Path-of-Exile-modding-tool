@@ -7,6 +7,7 @@ masterfilter_restrict=[
 masterfilter_exclude=[
     ]
 
+# we keep first 4
 condition=[
    "ClientAnimationController",
    "SkinMesh",

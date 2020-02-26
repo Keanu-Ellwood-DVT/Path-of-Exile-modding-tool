@@ -5,14 +5,15 @@ title "Remove fog/rain/shadows"
 restriction "\.env$"
 execute "aps310_env"
 
-title "No sound"
+title "Remove skin meshes and all sounds"
 restriction "\.aoc$"
 execute "aps310_aoc"
 
 title "No microtransaction effects"
 restriction "/Metadata/Effects/Microtransactions/.*\.epk$"
-execute "epk"
+execute "aps310_epk"
 restriction "/Metadata/Effects/Microtransactions/.*\.pet$"
-execute "pet"
+execute "aps310_pet"
 restriction "/Metadata/Effects/Microtransactions/.*\.aoc$"
 execute "aps310_aoc"
+
