@@ -1,7 +1,6 @@
 import re
 
 masterfilter_restrict=[
-        "\.aoc$"
     ]
 
 masterfilter_exclude=[
@@ -10,7 +9,7 @@ masterfilter_exclude=[
 # we keep first 4
 condition=[
    "ClientAnimationController",
-   "SkinMesh",
+   #"SkinMesh",
    "FixedMesh",
    "BoneGroups",
    #"ParticleEffects",

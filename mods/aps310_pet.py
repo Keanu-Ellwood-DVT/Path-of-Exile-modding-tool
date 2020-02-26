@@ -8,7 +8,6 @@ import os
 displaylabel=""
 
 masterfilter_restrict=[
-        "\.pet$"
     ]
 
 masterfilter_exclude=[

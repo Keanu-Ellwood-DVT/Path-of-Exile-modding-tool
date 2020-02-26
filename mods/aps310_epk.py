@@ -8,7 +8,6 @@ import os
 displaylabel=""
 
 masterfilter_restrict=[
-        "\.epk$"
     ]
 
 masterfilter_exclude=[

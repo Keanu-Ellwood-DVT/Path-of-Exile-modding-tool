@@ -8,7 +8,6 @@ import os
 displaylabel=""
 
 masterfilter_restrict=[
-        "^\./Metadata/Monsters/Monster\.ot$"
     ]
 
 masterfilter_exclude=[
