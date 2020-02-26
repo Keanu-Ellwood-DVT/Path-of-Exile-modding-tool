@@ -17,6 +17,7 @@ modifyggpk = "C:\\Program Files (x86)\\Grinding Gear Games\\Path of Exile\\Conte
 defragggpk = "C:\\Program Files (x86)\\Grinding Gear Games\\Path of Exile\\Content.ggpk.defrag"
 windowgeometry="866x714+0+0"
 configfile="poemods_config.txt"
+excludefile="exclude.txt"
 
 actionqueue=queue.Queue()
 searchqueue=queue.Queue()
@@ -215,10 +216,7 @@ def automodsexecute(restore):
     automodspickedup=automodsel.get()
     restrict=[]
     exclude=[]
-    myfilterselect=filterselect.get()
-    if myfilterselect==1 :
-        restrict=getrestrict()
-        exclude=getexclude()
+    exclude=getexclude()
     nothingrestored=True
     ignorelist=[]
     for title in autocheck :
@@ -477,6 +475,10 @@ labelreadml.pack(fill=X)
 scrollbarreadm = Scrollbar(framereadm)
 scrollbarreadm.pack(side=RIGHT, fill=Y)
 textreadm=Text(framereadm, width=35, font=(myfontfamily, myfontsize), yscrollcommand = scrollbarreadm.set)
+if os.path.exists(excludefile) :
+    with open(excludefile, "r", encoding="utf-8") as fin :
+        for line in fin :
+            textreadm.insert(END, line)
 textreadm.pack(fill=BOTH, expand=1)
 scrollbarreadm.config(command=textreadm.yview)
 
@@ -526,7 +528,7 @@ framechoice.pack(anchor=W, pady=10)
 
 frameexecutegd=Frame(frameexecute)
 filterselect = IntVar()
-Checkbutton(frameexecutegd, text = "Use your restrict / exclude filter as well", font=(myfontfamily, myfontsize), variable = filterselect, onvalue = 1, offvalue = 0).pack(anchor=CENTER)
+Checkbutton(frameexecutegd, text = "Use your restrict / exclude filter as well", font=(myfontfamily, myfontsize), variable = filterselect, onvalue = 1, offvalue = 1).pack(anchor=CENTER)
 frameexecutein=Frame(frameexecutegd)
 tkthingy["modify"]=Button(frameexecutein, text ="Modify", font=(myfontfamily, myfontsize), command = applycallback)
 tkthingy["modify"].pack(side=LEFT)

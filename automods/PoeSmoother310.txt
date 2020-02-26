@@ -4,7 +4,7 @@ title "Remove fog/rain/shadows"
 restriction "\.env$"
 execute "aps310_env"
 
-title "Remove skin meshes and all sounds"
+title "No sounds"
 restriction "\.aoc$"
 execute "aps310_aoc"
 
@@ -18,7 +18,7 @@ execute "aps310_aoc"
 
 title "Remove dead bodies"
 restriction "^\./Metadata/Monsters/Monster\.ot$"
-execute "ot"
+execute "aps310_ot"
 
 title "Zero effects"
 restriction "\.epk$"
