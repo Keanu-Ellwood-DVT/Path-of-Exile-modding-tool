@@ -6,6 +6,7 @@ execute "aps310_env"
 
 title "No sounds"
 restriction "\.aoc$"
+exclude "^\./Metadata/Terrain/"
 execute "aps310_aoc"
 
 title "No microtransaction effects"

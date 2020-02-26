@@ -1,3 +1,0 @@
-PoEFile=C:\games\poe\Content.ggpk
-DefragmentedFile=C:\games\poe\Content.ggpk.defrag
-Geometry=1680x997+113+7
