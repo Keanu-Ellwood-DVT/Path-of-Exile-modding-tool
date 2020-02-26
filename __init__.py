@@ -411,6 +411,10 @@ framesearchnot=Frame(frameexecute4)
 scrollbarsearchnot = Scrollbar(framesearchnot)
 scrollbarsearchnot.pack(side=RIGHT, fill=Y)
 textsearchnot=Text(framesearchnot, bg="#e0c0c0", width=35, height=3, font=(myfontfamily, myfontsize), yscrollcommand = scrollbarsearchnot.set)
+if os.path.exists(excludefile) :
+    with open(excludefile, "r", encoding="utf-8") as fin :
+        for line in fin :
+            textsearchnot.insert(END, line)
 textsearchnot.pack(fill=X, expand=1)
 scrollbarsearchnot.config(command=textsearchnot.yview)
 
@@ -475,10 +479,6 @@ labelreadml.pack(fill=X)
 scrollbarreadm = Scrollbar(framereadm)
 scrollbarreadm.pack(side=RIGHT, fill=Y)
 textreadm=Text(framereadm, width=35, font=(myfontfamily, myfontsize), yscrollcommand = scrollbarreadm.set)
-if os.path.exists(excludefile) :
-    with open(excludefile, "r", encoding="utf-8") as fin :
-        for line in fin :
-            textreadm.insert(END, line)
 textreadm.pack(fill=BOTH, expand=1)
 scrollbarreadm.config(command=textreadm.yview)
 
