@@ -1,11 +1,18 @@
 
 name "PoeSmoother 3.10"
 
-title "remove fog/rain/shadows"
+title "Remove fog/rain/shadows"
 restriction "\.env$"
 execute "aps310_env"
 
-title "no sound"
+title "No sound"
 restriction "\.aoc$"
 execute "aps310_aoc"
 
+title "No microtransaction effects"
+restriction "/Metadata/Effects/Microtransactions/.*\.epk$"
+execute "epk"
+restriction "/Metadata/Effects/Microtransactions/.*\.pet$"
+execute "pet"
+restriction "/Metadata/Effects/Microtransactions/.*\.aoc$"
+execute "aps310_aoc"
