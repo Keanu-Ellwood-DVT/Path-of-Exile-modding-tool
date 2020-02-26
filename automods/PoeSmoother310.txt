@@ -1,4 +1,3 @@
-
 name "PoeSmoother 3.10"
 
 title "Remove fog/rain/shadows"
@@ -17,3 +16,10 @@ execute "aps310_pet"
 restriction "/Metadata/Effects/Microtransactions/.*\.aoc$"
 execute "aps310_aoc"
 
+title "Remove dead bodies"
+restriction "^\./Metadata/Monsters/Monster\.ot$"
+execute "ot"
+
+title "Zero effects"
+restriction "\.epk$"
+execute "aps310_epk"
