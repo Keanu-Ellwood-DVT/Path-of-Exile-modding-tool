@@ -1,0 +1,11 @@
+
+name "PoeSmoother 3.10"
+
+title "remove fog/rain/shadows"
+restriction "\.env$"
+execute "aps310_env"
+
+title "no sound"
+restriction "\.aoc$"
+execute "aps310_aoc"
+

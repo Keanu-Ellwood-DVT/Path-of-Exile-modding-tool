@@ -1,0 +1,3 @@
+PoEFile=C:\games\poe\Content.ggpk
+DefragmentedFile=C:\Program Files (x86)\Grinding Gear Games\Path of Exile\Content.ggpk.defrag
+Geometry=1680x997+1911+48
