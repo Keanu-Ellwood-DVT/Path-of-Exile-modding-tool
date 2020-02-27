@@ -1,12 +1,6 @@
 import brotli
 import kivy_img_dds
 
-'''
-
-restriction "\.dds$"
-
-'''
-
 def execute(filename, filedata, modifyggpk):
     if filedata[0] == ord("*") and filedata[3]>=0x20 :
         return None, None, None
@@ -30,7 +24,7 @@ def execute(filename, filedata, modifyggpk):
         #   -  or max size allowed = width or height 32 :
         # filedata = dds.stripbiggermipmapthan(32)
 
-        filedata = dds.stripbiggermipmapthan(32)
+        filedata = dds.stripratiomipmap(2)
 
     except Exception as e :
         print("%s %s" % (str(e), filename))
@@ -43,6 +37,9 @@ def execute(filename, filedata, modifyggpk):
     #    filedatal=len(filedata)
     #    newdecsize = (filedatal).to_bytes(4, byteorder='little', signed=False)
     #    filedata = newdecsize + brotli.compress(filedata)
+    filedatal=len(filedata)
+    newdecsize = (filedatal).to_bytes(4, byteorder='little', signed=False)
+    filedata = newdecsize + brotli.compress(filedata)
 
     return filedata, None, None
 
