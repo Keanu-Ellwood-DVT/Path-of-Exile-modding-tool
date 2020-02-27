@@ -1,20 +1,24 @@
 name "PoeSmoother 3.10"
 
-title "Remove fog/shadows"
+title "Remove fog/shadows (env)"
 restriction "\.env$"
 execute "aps310_env"
 
-title "No sounds"
+title "No sounds (aoc)"
 restriction "^\./Metadata/Effects/Environment/.*\.aoc$"
 restriction "^\./Metadata/Effects/Microtransactions/.*\.aoc$"
 restriction "^\./Metadata/Effects/Spells/.*\.aoc$"
 restriction "^\./Metadata/Terrain/Doodads/.*\.aoc$"
 execute "aps310_aoc"
 
-title "Remove dead bodies"
+title "Remove dead bodies (ot)"
 restriction "^\./Metadata/Monsters/Monster\.ot$"
 execute "aps310_ot"
 
-title "Zero effects"
+title "Zero effects (epk)"
 restriction "\.epk$"
 execute "aps310_epk"
+
+title "Zero Particles (pet)"
+restriction "\.pet$"
+execute "aps310_pet"
