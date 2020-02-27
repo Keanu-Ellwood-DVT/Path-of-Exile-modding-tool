@@ -37,9 +37,10 @@ def execute(filename, filedata, modifyggpk):
     #    filedatal=len(filedata)
     #    newdecsize = (filedatal).to_bytes(4, byteorder='little', signed=False)
     #    filedata = newdecsize + brotli.compress(filedata)
-    filedatal=len(filedata)
-    newdecsize = (filedatal).to_bytes(4, byteorder='little', signed=False)
-    filedata = newdecsize + brotli.compress(filedata)
+    if reencodeneeded is True :
+        filedatal=len(filedata)
+        newdecsize = (filedatal).to_bytes(4, byteorder='little', signed=False)
+        filedata = newdecsize + brotli.compress(filedata)
 
     return filedata, None, None
 

@@ -24,10 +24,8 @@ restriction "\.pet$"
 execute "aps310_pet"
 
 title "Reduce textures (.dds)"
-
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
 exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
-
 restriction "/Art/2DArt/.*\.dds$"
 restriction "/Art/Microtransactions/.*\.dds$"
 restriction "/Art/Models/.*\.dds$"
@@ -42,5 +40,4 @@ restriction "/Art/Textures/NPC/.*\.dds$"
 restriction "/Art/Textures/Pet/.*\.dds$"
 restriction "/Metadata/EnvironmentSettings/.*\.dds$"
 restriction "/minimap/.*\.dds$"
-
 execute "aps310_dds"
