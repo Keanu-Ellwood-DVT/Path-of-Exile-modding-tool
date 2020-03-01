@@ -4,7 +4,7 @@ title "Remove fog/shadows (.env)"
 restriction "\.env$"
 execute "aps310_env"
 
-title "No monster/enviroment sounds (.aoc)"
+title "[Experimental] No monster/enviroment sounds (.aoc)"
 restriction "\.aoc$"
 execute "aps310_aoc"
 
