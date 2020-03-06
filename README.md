@@ -11,7 +11,7 @@ Updated .env to 3.9
 
 .epk / .pet is quite stable
 
-Reenabled texture compression
+Reenabled texture compression (1:4). Takes few hours to complete
 
 Included null shadow shader
 
