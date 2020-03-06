@@ -1,3 +1,5 @@
+![preview](https://i.imgur.com/ZOMKaLY.png)
+
 # Credits
 
 This guy did 99.9% of work
