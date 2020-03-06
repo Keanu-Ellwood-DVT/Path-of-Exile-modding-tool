@@ -21,6 +21,8 @@ Check original guide https://github.com/poemods/Path-of-Exile-modding-tool
 
 Install python and required libs
 
+*New big poe patch* ? Delete keep folder before starting
+
 Run __init__.py
 
 Provide path to ggpk (example, C:\games\poe\Content.ggpk)
@@ -34,3 +36,5 @@ Automods -> PoeSmoother -> Tick env, ot, epk, pet
 Tick Use your ...
 
 Press modify, wait
+
+Defragment ggpk once in a while (even on SSD). It helps with black texture bug
