@@ -13,6 +13,8 @@ Updated .env to 3.9
 
 Reenabled texture compression
 
+Included null shadow shader
+
 # How to use
 
 Check original guide https://github.com/poemods/Path-of-Exile-modding-tool
