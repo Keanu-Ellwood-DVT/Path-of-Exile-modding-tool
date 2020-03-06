@@ -1,4 +1,4 @@
-![preview](https://i.imgur.com/ZOMKaLY.png)
+![preview](https://i.imgur.com/lJf6XVB.png)
 
 # Credits
 
