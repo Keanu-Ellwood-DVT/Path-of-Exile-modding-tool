@@ -33,4 +33,4 @@ Automods -> PoeSmoother -> Tick env, ot, epk, pet
 
 Tick Use your ...
 
-Modify, wait
+Press modify, wait
