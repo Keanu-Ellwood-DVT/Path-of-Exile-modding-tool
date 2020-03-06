@@ -1,6 +1,9 @@
 # Credits
 
+this guy did 99.9% of work
 https://github.com/poemods/Path-of-Exile-modding-tool
+
+# Whats new
 
 Updated to autoload exception list from exception.txt
 Updated .env to 3.9
