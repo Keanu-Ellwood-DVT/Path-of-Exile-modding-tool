@@ -15,7 +15,7 @@ Updated .env to 3.9
 
 Reenabled texture compression (1:4). Takes few hours to complete
 
-Included null shadow shader
+Included null shadow shader (nvidia only)
 
 # How to use
 
