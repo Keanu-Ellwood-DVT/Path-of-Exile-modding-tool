@@ -25,18 +25,14 @@ Install python and required libs
 
 *New big poe patch* ? Delete keep folder before starting
 
-Run __init__.py
+* Run __init__.py. Provide path to ggpk (example, C:\games\poe\Content.ggpk)
 
-Provide path to ggpk (example, C:\games\poe\Content.ggpk)
+* Press Scan, wait
 
-Press Scan, wait
+* Press insert (it will insert null shadow shader), wait, it should say "1 file inserted"
 
-Press insert (it will insert null shadow shader), wait, it should say "1 file inserted"
+* Automods -> PoeSmoother -> Tick env, ot, epk, pet
 
-Automods -> PoeSmoother -> Tick env, ot, epk, pet
+* Press modify, wait
 
-Tick Use your ...
-
-Press modify, wait
-
-Defragment ggpk once in a while (even on SSD). It helps with black texture bug
+Defragment ggpk once in a while (even on SSD). It helps with black texture bug. You use this https://www.pathofexile.com/forum/view-thread/28060 Defragmentor as well
