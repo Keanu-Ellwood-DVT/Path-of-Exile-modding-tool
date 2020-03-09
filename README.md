@@ -31,7 +31,7 @@ Install python and required libs
 
 * Press insert (it will insert null shadow shader), wait, it should say "1 file inserted"
 
-* Automods -> PoeSmoother -> Tick env, ot, epk, pet
+* Automods -> PoeSmoother -> Check env, ot, epk, pet
 
 * Press modify, wait
 
