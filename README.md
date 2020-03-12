@@ -20,13 +20,15 @@ Included null shadow shader (nvidia only)
 
 ![install1](https://i.imgur.com/WGL3CSw.png)
 
-* Navigate to poe mod tool folder
+* [Download script](https://github.com/vadash/Path-of-Exile-modding-tool/archive/master.zip) Extract somwhere and open folder
 
 *New big poe patch* ? Delete keep inside folder before starting
 
+![install2](https://i.imgur.com/5fpbdHL.png)
+
 * Run **Start.cmd** Provide path to ggpk (example, C:\games\poe\Content.ggpk)
 
-![install2](https://i.imgur.com/QFt4iM1.png)
+![install3](https://i.imgur.com/QFt4iM1.png)
 
 Press Scan and wait
 
@@ -36,7 +38,7 @@ Press Scan and wait
 
 * Press modify, wait
 
-* Use defragmentator (ggpk_defragment.exe) after big patches
+* Use defragmentator (ggpk_defragment.exe) after big patches. Takes up to 10 minutes on SSD
 
 # Credits
 
