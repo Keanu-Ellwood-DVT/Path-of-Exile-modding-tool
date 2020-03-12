@@ -18,17 +18,17 @@ Included null shadow shader (nvidia only)
 
 * Go to https://www.python.org/downloads/windows/ -> Click Latest Python 3 Release -> Scroll and find "Windows x86-64 executable installer" -> Start installer -> Check add to PATH
 
-![install1](https://i.imgur.com/WGL3CSw.png)
+![install](https://i.imgur.com/WGL3CSw.png)
 
 * [Download script](https://github.com/vadash/Path-of-Exile-modding-tool/archive/master.zip) Extract somwhere and open folder
 
 *New big poe patch* ? Delete keep inside folder before starting
 
-![install2](https://i.imgur.com/5fpbdHL.png)
+![install](https://i.imgur.com/5fpbdHL.png)
 
 * Run **Start.cmd** Provide path to ggpk (example, C:\games\poe\Content.ggpk)
 
-![install3](https://i.imgur.com/QFt4iM1.png)
+![install](https://i.imgur.com/QFt4iM1.png)
 
 Press Scan and wait
 
