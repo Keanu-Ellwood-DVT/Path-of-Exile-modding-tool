@@ -22,7 +22,7 @@ Included null shadow shader (nvidia only)
 
 * [Download script](https://github.com/vadash/Path-of-Exile-modding-tool/archive/master.zip) Unpack somewhere and open folder
 
-*New big p o e patch* ? Delete folder **k e e p** before starting
+*New big p o e patch* ? Delete folder **к е е р** before starting
 
 ![install](https://i.imgur.com/5fpbdHL.png)
 
