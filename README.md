@@ -32,7 +32,7 @@ Included null shadow shader (nvidia only)
 
 Press Scan and wait
 
-* Press insert (it will insert null shadow shader), wait, it should say "1 file inserted"
+* [NVIDIA only] Press insert (it will insert null shadow shader), wait, it should say "1 file inserted"
 
 * Automods -> PoeSmoother -> Check env, ot, epk, pet (top 4 boxes)
 
