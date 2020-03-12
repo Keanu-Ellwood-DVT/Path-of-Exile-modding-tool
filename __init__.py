@@ -13,8 +13,8 @@ import queue
 from tkinter import *
 import poemods_threads
 
-modifyggpk = "C:\\Program Files (x86)\\Grinding Gear Games\\Path of Exile\\Content.ggpk"
-defragggpk = "C:\\Program Files (x86)\\Grinding Gear Games\\Path of Exile\\Content.ggpk.defrag"
+modifyggpk = "C:\\games\\poe\\Content.ggpk"
+defragggpk = "C:\\games\\poe\\Content2.ggpk"
 windowgeometry="866x714+0+0"
 configfile="poemods_config.txt"
 excludefile="exclude.txt"
