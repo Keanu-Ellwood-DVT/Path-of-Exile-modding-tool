@@ -19,20 +19,24 @@ Included null shadow shader (nvidia only)
 
 # How to use
 
-Check original guide https://github.com/poemods/Path-of-Exile-modding-tool
+* Go to https://www.python.org/downloads/windows/ -> Click Latest Python 3 Release -> Scroll and find "Windows x86-64 executable installer" -> Start installer -> Check add to PATH
 
-Install python and required libs
+![install1](https://i.imgur.com/WGL3CSw.png)
 
-*New big poe patch* ? Delete keep folder before starting
+* Navigate to poe mod tool folder
 
-* Run __init__.py. Provide path to ggpk (example, C:\games\poe\Content.ggpk)
+*New big poe patch* ? Delete keep inside folder before starting
 
-* Press Scan, wait
+* Run **Start.cmd** Provide path to ggpk (example, C:\games\poe\Content.ggpk)
+
+![install2](https://i.imgur.com/QFt4iM1.png)
+
+Press Scan and wait
 
 * Press insert (it will insert null shadow shader), wait, it should say "1 file inserted"
 
-* Automods -> PoeSmoother -> Check env, ot, epk, pet
+* Automods -> PoeSmoother -> Check env, ot, epk, pet (top 4 boxes)
 
 * Press modify, wait
 
-Defragment ggpk once in a while (even on SSD). It helps with black texture bug. You use this https://www.pathofexile.com/forum/view-thread/28060 Defragmentor as well
+* Use defragmentator (ggpk_defragment.exe) after big patches
