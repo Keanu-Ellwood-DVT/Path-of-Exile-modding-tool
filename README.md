@@ -1,9 +1,6 @@
 ![preview](https://i.imgur.com/lJf6XVB.png)
 
-# Credits
-
-This guy did 99.9% of work
-https://github.com/poemods/Path-of-Exile-modding-tool
+(Гайд для 2HEAD на русском)[https://translate.google.com/translate?hl=&sl=auto&tl=ru&u=https%3A%2F%2Fgithub.com%2Fvadash%2FPath-of-Exile-modding-tool%2F] 
 
 # Whats new
 
@@ -40,3 +37,8 @@ Press Scan and wait
 * Press modify, wait
 
 * Use defragmentator (ggpk_defragment.exe) after big patches
+
+# Credits
+
+This guy did 99.9% of work
+https://github.com/poemods/Path-of-Exile-modding-tool
