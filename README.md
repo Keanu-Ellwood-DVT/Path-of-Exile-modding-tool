@@ -20,7 +20,7 @@ Included null shadow shader (nvidia only)
 
 ![install](https://i.imgur.com/WGL3CSw.png)
 
-* [Download script](https://github.com/vadash/Path-of-Exile-modding-tool/archive/master.zip) Extract somwhere and open folder
+* [Download script](https://github.com/vadash/Path-of-Exile-modding-tool/archive/master.zip) Unpack somewhere and open folder
 
 *New big poe patch* ? Delete keep inside folder before starting
 
