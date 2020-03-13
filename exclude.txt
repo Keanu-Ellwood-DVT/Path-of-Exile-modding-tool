@@ -15,3 +15,5 @@ Conduit_Sigil
 DelveMeleeCold
 NewColdSnap
 WetaColdSnapOnDeath
+affliction
+Delirium
