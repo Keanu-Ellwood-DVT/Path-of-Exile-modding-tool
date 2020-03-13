@@ -20,9 +20,9 @@ Included null shadow shader (nvidia only)
 
 ![install](https://i.imgur.com/WGL3CSw.png)
 
-* [Download script](https://github.com/vadash/Path-of-Exile-modding-tool/archive/master.zip) Extract somwhere and open folder
+* [Download script](https://github.com/vadash/Path-of-Exile-modding-tool/archive/master.zip) Unpack somewhere and open folder
 
-*New big poe patch* ? Delete keep inside folder before starting
+*New big p o e patch* ? Delete folder **к е е р** before starting
 
 ![install](https://i.imgur.com/5fpbdHL.png)
 
@@ -32,7 +32,7 @@ Included null shadow shader (nvidia only)
 
 Press Scan and wait
 
-* Press insert (it will insert null shadow shader), wait, it should say "1 file inserted"
+* [NVIDIA only] Press insert (it will insert null shadow shader), wait, it should say "1 file inserted"
 
 * Automods -> PoeSmoother -> Check env, ot, epk, pet (top 4 boxes)
 
