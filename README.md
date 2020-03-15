@@ -1,3 +1,7 @@
+# IMPORTANT
+
+Run defrag ggpk_defragment.exe after to make it compatible with tools like poesmoother, visual ggpk, etc
+
 ![preview](https://i.imgur.com/lJf6XVB.png)
 
 [Гайд для 2HEAD на русском](https://translate.google.com/translate?hl=&sl=auto&tl=ru&u=https%3A%2F%2Fgithub.com%2Fvadash%2FPath-of-Exile-modding-tool%2F)
