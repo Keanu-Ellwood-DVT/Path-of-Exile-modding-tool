@@ -12,8 +12,3 @@ FrostFury
 Conduit_Sigil
 /League_Legion/RewardSystem/
 /atlasexiles/Orion
-DelveMeleeCold
-NewColdSnap
-WetaColdSnapOnDeath
-affliction
-Delirium
