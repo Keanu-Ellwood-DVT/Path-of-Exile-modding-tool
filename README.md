@@ -47,5 +47,5 @@ https://github.com/poemods/Path-of-Exile-modding-tool
 
 2 avs for exception list and fog idea
 
-# End result
+# End result (3.10 during delirium event)
 ![endresult](https://cdn.discordapp.com/attachments/343015052967673856/689917744887627889/unknown.png)
