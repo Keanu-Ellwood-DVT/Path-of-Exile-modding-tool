@@ -12,8 +12,6 @@ Updated to autoload exception list from exception.txt
 
 Updated .env to 3.9
 
-.epk / .pet is quite stable
-
 Remove delirium fog
 
 # How to use
