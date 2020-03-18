@@ -46,5 +46,7 @@ Press Scan and wait
 
 # Credits
 
-This guy did 99.9% of work
+1 original repo
 https://github.com/poemods/Path-of-Exile-modding-tool
+
+2 avs for exception list and fog idea
