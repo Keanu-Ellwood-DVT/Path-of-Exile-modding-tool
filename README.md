@@ -34,7 +34,7 @@ Press Scan and wait
 
 * Press insert (it will insert null shadow shader), wait, it should say "5 file inserted"
 
-It will replace 2 shadow and 1 regular fog shader files, 2 delirium fog files. ```This step was only tested with NVIDIA```
+It will replace 2 shadow and 1 regular fog shader files, 2 delirium fog files. **This step was only tested with NVIDIA**
 
 * Automods -> PoeSmoother -> Check env, ot, epk, pet (top 4 boxes)
 
