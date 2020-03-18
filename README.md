@@ -40,7 +40,7 @@ It will replace 2 shadow and 1 regular fog shader files, 2 delirium fog files. *
 
 * Press modify, wait
 
-* Use defragmentator (ggpk_defragment.exe) after big patches. Takes up to 10 minutes on SSD
+* [optional] Use defragmentator (ggpk_defragment.exe) after big patches. Takes up to 10 minutes on SSD
 
 # Credits
 
