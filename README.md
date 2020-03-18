@@ -46,7 +46,7 @@ Press Scan and wait
 
 # Credits
 
-1 original repo
+1 poemods (original repo)
 https://github.com/poemods/Path-of-Exile-modding-tool
 
 2 avs for exception list and fog idea
