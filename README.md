@@ -12,11 +12,7 @@ Updated to autoload exception list from exception.txt
 
 Updated .env to 3.9
 
-.epk / .pet is quite stable
-
-Reenabled texture compression (1:4). Takes few hours to complete
-
-Included null shadow shader (nvidia only)
+Remove delirium fog
 
 # How to use
 
@@ -36,13 +32,15 @@ Included null shadow shader (nvidia only)
 
 Press Scan and wait
 
-* [NVIDIA only] Press insert (it will insert null shadow shader), wait, it should say "1 file inserted"
+* Press insert (it will insert null shadow shader), wait, it should say "5 file inserted"
+
+It will replace 2 shadow and 1 regular fog shader files, 2 delirium fog files. **This step was only tested with NVIDIA**
 
 * Automods -> PoeSmoother -> Check env, ot, epk, pet (top 4 boxes)
 
 * Press modify, wait
 
-* Use defragmentator (ggpk_defragment.exe) after big patches. Takes up to 10 minutes on SSD
+* [optional] Use defragmentator (ggpk_defragment.exe) after big patches. Takes up to 10 minutes on SSD
 
 # Credits
 
@@ -50,3 +48,6 @@ Press Scan and wait
 https://github.com/poemods/Path-of-Exile-modding-tool
 
 2 avs for exception list and fog idea
+
+# End result (3.10 during delirium event)
+![endresult](https://cdn.discordapp.com/attachments/343015052967673856/689917744887627889/unknown.png)
