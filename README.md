@@ -4,8 +4,6 @@
 
 Run defrag ggpk_defragment.exe after to make it compatible with tools like poesmoother, visual ggpk, etc
 
-!AMD! Just remove `Path-of-Exile-modding-tool-master\extracted\Shaders` before running tool !AMD!
-
 # Whats new
 
 Updated to autoload exception list from exception.txt
@@ -22,7 +20,9 @@ Remove delirium fog
 
 * [Download script](https://github.com/vadash/Path-of-Exile-modding-tool/archive/master.zip) Unpack somewhere and open folder
 
-*New big p o e patch* ? Delete folder **к е е р** before starting
+!AMD GPU! Remove `Path-of-Exile-modding-tool-master\extracted\Shaders` before running tool !AMD GPU!
+
+New big p o e patch ? Delete folder *кeeр* before starting
 
 ![install](https://i.imgur.com/5fpbdHL.png)
 
@@ -34,7 +34,7 @@ Press Scan and wait
 
 * Press insert (it will insert null shadow shader), wait, it should say "5 file inserted"
 
-It will replace 2 shadow and 1 regular fog shader files, 2 delirium fog files. **This step was only tested with NVIDIA**
+It will replace 2 shadow and 1 regular fog shader files, 2 delirium fog files.
 
 * Automods -> PoeSmoother -> Check env, ot, epk, pet (top 4 boxes)
 
