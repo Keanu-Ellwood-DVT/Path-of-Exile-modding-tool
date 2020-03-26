@@ -1,17 +1,63 @@
 name "PoeSmoother 3.10"
 
-title "Remove fog/shadows (.env)"
+title "[Stable] Remove fog/shadows (.env)" colorgreen
 restriction "\.env$"
 execute "aps310_env"
 
-title "Remove dead bodies (.ot)"
+title "[Stable] Remove dead bodies (.ot)" colorgreen
 restriction "^\./Metadata/Monsters/Monster\.ot$"
 execute "aps310_ot"
 
-title "Reduce effects (.epk)"
+title "[Stable] Reduce effects (.epk)" colorgreen
 restriction "\.epk$"
 execute "aps310_epk"
 
-title "Reduce particles (.pet)"
+title "[Stable] Reduce particles (.pet)" colorgreen
 restriction "\.pet$"
 execute "aps310_pet"
+
+title "[Experimental] No monster/enviroment sounds (.aoc)"
+restriction "\.aoc$"
+execute "aps310_aoc"
+
+title "[Experimental, very long] Reduce textures (.dds)"
+exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
+exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
+exclude "/Art/2DArt/.*\.dds$"
+exclude "/Art/Microtransactions/.*\.dds$"
+restriction "/Art/Models/.*\.dds$"
+restriction "/Art/particles/.*\.dds$"
+restriction "/Art/Textures/Characters/.*\.dds$"
+restriction "/Art/Textures/Doodads/.*\.dds$"
+restriction "/Art/Textures/Environment/.*\.dds$"
+restriction "/Art/Textures/Items/.*\.dds$"
+restriction "/Art/Textures/Misc/.*\.dds$"
+restriction "/Art/Textures/Monsters/.*\.dds$"
+restriction "/Art/Textures/NPC/.*\.dds$"
+restriction "/Art/Textures/Pet/.*\.dds$"
+restriction "/Metadata/EnvironmentSettings/.*\.dds$"
+execute "aps310_dds"
+
+title "[Experimental] (.ao)"
+restriction "\.ao$"
+execute "ao"
+
+title "[Experimental] (.mat)"
+restriction "\.mat$"
+execute "mat"
+
+title "[Experimental] (.atlas)" 
+restriction "\.atlas$"
+execute "atlas"
+
+title "[Experimental] (.arm)"
+restriction "\.arm$"
+execute "arm"
+
+title "[Experimental] (.dlp)"
+restriction "\.dlp$"
+execute "dlp"
+
+title "[Experimental] (.mtd)"
+restriction "\.mtd$"
+execute "mtd"

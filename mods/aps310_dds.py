@@ -24,7 +24,7 @@ def execute(filename, filedata, modifyggpk):
         #   -  or max size allowed = width or height 32 :
         # filedata = dds.stripbiggermipmapthan(32)
 
-        filedata = dds.stripratiomipmap(2)
+        filedata = dds.stripratiomipmap(3)
 
     except Exception as e :
         print("%s %s" % (str(e), filename))
@@ -37,10 +37,6 @@ def execute(filename, filedata, modifyggpk):
     #    filedatal=len(filedata)
     #    newdecsize = (filedatal).to_bytes(4, byteorder='little', signed=False)
     #    filedata = newdecsize + brotli.compress(filedata)
-    if reencodeneeded is True :
-        filedatal=len(filedata)
-        newdecsize = (filedatal).to_bytes(4, byteorder='little', signed=False)
-        filedata = newdecsize + brotli.compress(filedata)
 
     return filedata, None, None
 
