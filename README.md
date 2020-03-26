@@ -4,7 +4,7 @@
 
 Run defrag ggpk_defragment.exe after to make it compatible with tools like poesmoother, visual ggpk, etc
 
-[Гайд для 2HEAD на русском](https://translate.google.com/translate?hl=&sl=auto&tl=ru&u=https%3A%2F%2Fgithub.com%2Fvadash%2FPath-of-Exile-modding-tool%2F)
+!AMD! Just remove `Path-of-Exile-modding-tool-master\extracted\Shaders` before running tool !AMD!
 
 # Whats new
 
@@ -51,3 +51,5 @@ https://github.com/poemods/Path-of-Exile-modding-tool
 
 # End result (3.10 during delirium event)
 ![endresult](https://cdn.discordapp.com/attachments/343015052967673856/689917744887627889/unknown.png)
+
+[Гайд для 2HEAD на русском](https://translate.google.com/translate?hl=&sl=auto&tl=ru&u=https%3A%2F%2Fgithub.com%2Fvadash%2FPath-of-Exile-modding-tool%2F)
