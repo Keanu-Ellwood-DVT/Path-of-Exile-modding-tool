@@ -4,39 +4,35 @@ title "[Stable] Remove fog/shadows (.env)" colorgreen
 restriction "\.env$"
 execute "aps310_env"
 
-title "[Stable] Remove dead bodies (.ot)" colorgreen
+title "[Stable] +fps Remove dead bodies (.ot)" colorgreen
 restriction "^\./Metadata/Monsters/Monster\.ot$"
 execute "aps310_ot"
 
-title "[Stable] Reduce effects (.epk)" colorgreen
+title "[Stable] ++fps Reduce effects (.epk)" colorgreen
 restriction "\.epk$"
 execute "aps310_epk"
 
-title "[Stable] Reduce particles (.pet)" colorgreen
+title "[Stable] ++fps Reduce particles (.pet)" colorgreen
 restriction "\.pet$"
 execute "aps310_pet"
 
-title "[Beta] No monster/enviroment sounds (.aoc)"
-restriction "\.aoc$"
-execute "aps310_aoc"
-
-title "[Beta] (.ao)"
+title "[Beta] +fps Remove AttachedAnimatedObject (.ao)"
 restriction "\.ao$"
 execute "ao"
 
-title "[Beta] (.atlas)" 
+title "[Beta] +fps Remove Decals grass plants slime gore (.atlas)" 
 restriction "\.atlas$"
 execute "atlas"
 
-title "[Beta] (.arm)"
+title "[Beta] +fps Remove Rooms Decals (.arm)"
 restriction "\.arm$"
 execute "arm"
 
-title "[Beta] (.dlp)"
+title "[Beta] +fps Remove Terrain Decals 1/2 (.dlp)"
 restriction "\.dlp$"
 execute "dlp"
 
-title "[Beta] (.mtd)"
+title "[Beta] +fps Remove Terrain Decals 2/2 (.mtd)"
 restriction "\.mtd$"
 execute "mtd"
 
@@ -44,9 +40,13 @@ title "[Beta] Remove players"
 restriction "^\./Metadata/Characters/Character.otc$"
 execute "aps310_otc.py"
 
-title "[Beta] Remove all monsters"
+title "[Beta] ++fps Remove all monsters"
 restriction "^\./Metadata/Monsters/Monster.otc$"
 execute "aps310_otc.py"
+
+title "[Experimental +++fps No monster/enviroment sounds (.aoc)"
+restriction "\.aoc$"
+execute "aps310_aoc"
 
 title "[Experimental, long] 1/11 Reduce textures (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
