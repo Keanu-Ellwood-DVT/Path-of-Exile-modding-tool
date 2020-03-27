@@ -53,3 +53,16 @@ https://github.com/poemods/Path-of-Exile-modding-tool
 ![endresult](https://cdn.discordapp.com/attachments/343015052967673856/689917744887627889/unknown.png)
 
 [Гайд для 2HEAD на русском](https://translate.google.com/translate?hl=&sl=auto&tl=ru&u=https%3A%2F%2Fgithub.com%2Fvadash%2FPath-of-Exile-modding-tool%2F)
+
+# Troubleshooting
+
+Delete Content.ggpk
+
+Download it again
+
+Backup Content.ggpk
+
+Delete folders CachedHLSLShaders, ShaderCacheD3D11 from poe root folder
+
+Delete keep folder in Path-of-Exile-modding-tool
+Try again
