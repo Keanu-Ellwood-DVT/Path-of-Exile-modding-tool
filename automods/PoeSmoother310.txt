@@ -44,8 +44,7 @@ title "[Experimental] Remove players"
 restriction "^\./Metadata/Characters/Character.otc$"
 execute "aps310_otc.py"
 
-# [Experimental] Remove all monsters
-title "remove monsters"
+title "[Experimental] Remove all monsters"
 restriction "^\./Metadata/Monsters/Monster.otc$"
 execute "aps310_otc.py"
 
