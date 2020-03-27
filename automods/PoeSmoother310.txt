@@ -16,39 +16,39 @@ title "[Stable] Reduce particles (.pet)" colorgreen
 restriction "\.pet$"
 execute "aps310_pet"
 
-title "[Experimental] No monster/enviroment sounds (.aoc)"
+title "[Beta] No monster/enviroment sounds (.aoc)"
 restriction "\.aoc$"
 execute "aps310_aoc"
 
-title "[Experimental] (.ao)"
+title "[Beta] (.ao)"
 restriction "\.ao$"
 execute "ao"
 
-title "[Experimental] (.atlas)" 
+title "[Beta] (.atlas)" 
 restriction "\.atlas$"
 execute "atlas"
 
-title "[Experimental] (.arm)"
+title "[Beta] (.arm)"
 restriction "\.arm$"
 execute "arm"
 
-title "[Experimental] (.dlp)"
+title "[Beta] (.dlp)"
 restriction "\.dlp$"
 execute "dlp"
 
-title "[Experimental] (.mtd)"
+title "[Beta] (.mtd)"
 restriction "\.mtd$"
 execute "mtd"
 
-title "[Experimental] Remove players"
+title "[Beta] Remove players"
 restriction "^\./Metadata/Characters/Character.otc$"
 execute "aps310_otc.py"
 
-title "[Experimental] Remove all monsters"
+title "[Beta] Remove all monsters"
 restriction "^\./Metadata/Monsters/Monster.otc$"
 execute "aps310_otc.py"
 
-title "[Experimental, very long] 1/11 Reduce textures (.dds)"
+title "[Experimental, long] 1/11 Reduce textures (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
 exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
 exclude "/Art/2DArt/.*\.dds$"
@@ -57,7 +57,7 @@ restriction "/Art/Models/.*\.dds$"
 execute "aps310_dds"
 
 
-title "[Experimental, very long] 2/11 Reduce textures (.dds)"
+title "[Experimental, long] 2/11 Reduce textures (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
 exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
 exclude "/Art/2DArt/.*\.dds$"
@@ -66,7 +66,7 @@ restriction "/Art/particles/.*\.dds$"
 execute "aps310_dds"
 
 
-title "[Experimental, very long] 3/11 Reduce textures (.dds)"
+title "[Experimental, long] 3/11 Reduce textures (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
 exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
 exclude "/Art/2DArt/.*\.dds$"
@@ -75,7 +75,7 @@ restriction "/Art/Textures/Characters/.*\.dds$"
 execute "aps310_dds"
 
 
-title "[Experimental, very long] 4/11 Reduce textures (.dds)"
+title "[Experimental, long] 4/11 Reduce textures (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
 exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
 exclude "/Art/2DArt/.*\.dds$"
@@ -84,7 +84,7 @@ restriction "/Art/Textures/Doodads/.*\.dds$"
 execute "aps310_dds"
 
 
-title "[Experimental, very long] 5/11 Reduce textures (.dds)"
+title "[Experimental, long] 5/11 Reduce textures (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
 exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
 exclude "/Art/2DArt/.*\.dds$"
@@ -93,7 +93,7 @@ restriction "/Art/Textures/Environment/.*\.dds$"
 execute "aps310_dds"
 
 
-title "[Experimental, very long] 6/11 Reduce textures (.dds)"
+title "[Experimental, long] 6/11 Reduce textures (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
 exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
 exclude "/Art/2DArt/.*\.dds$"
@@ -102,7 +102,7 @@ restriction "/Art/Textures/Items/.*\.dds$"
 execute "aps310_dds"
 
 
-title "[Experimental, very long] 7/11 Reduce textures (.dds)"
+title "[Experimental, long] 7/11 Reduce textures (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
 exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
 exclude "/Art/2DArt/.*\.dds$"
@@ -111,7 +111,7 @@ restriction "/Art/Textures/Misc/.*\.dds$"
 execute "aps310_dds"
 
 
-title "[Experimental, very long] 8/11 Reduce textures (.dds)"
+title "[Experimental, long] 8/11 Reduce textures (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
 exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
 exclude "/Art/2DArt/.*\.dds$"
@@ -120,7 +120,7 @@ restriction "/Art/Textures/Monsters/.*\.dds$"
 execute "aps310_dds"
 
 
-title "[Experimental, very long] 9/11 Reduce textures (.dds)"
+title "[Experimental, long] 9/11 Reduce textures (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
 exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
 exclude "/Art/2DArt/.*\.dds$"
@@ -129,7 +129,7 @@ restriction "/Art/Textures/NPC/.*\.dds$"
 execute "aps310_dds"
 
 
-title "[Experimental, very long] 10/11 Reduce textures (.dds)"
+title "[Experimental, long] 10/11 Reduce textures (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
 exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
 exclude "/Art/2DArt/.*\.dds$"
@@ -138,7 +138,7 @@ restriction "/Art/Textures/Pet/.*\.dds$"
 execute "aps310_dds"
 
 
-title "[Experimental, very long] 11/11 Reduce textures (.dds)"
+title "[Experimental, long] 11/11 Reduce textures (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
 exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
 exclude "/Art/2DArt/.*\.dds$"
