@@ -36,17 +36,17 @@ title "[Beta] +fps Remove Terrain Decals 2/2 (.mtd)"
 restriction "\.mtd$"
 execute "mtd"
 
-title "[Beta] +fps Remove all players"
+title "[Beta] +++fps No monster/enviroment sounds (.aoc)"
+restriction "\.aoc$"
+execute "aps310_aoc"
+
+title "[Beta] Remove all players"
 restriction "^\./Metadata/Characters/Character.otc$"
 execute "aps310_otc"
 
-title "[Beta] ++fps Remove all monsters"
+title "[Beta] Remove all monsters"
 restriction "^\./Metadata/Monsters/Monster.otc$"
 execute "aps310_otc"
-
-title "[Experimental] +++fps No monster/enviroment sounds (.aoc)"
-restriction "\.aoc$"
-execute "aps310_aoc"
 
 title "[Experimental] 1/11 Reduce textures (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize

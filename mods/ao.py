@@ -7,9 +7,7 @@ restriction "\.ao$"
 '''
 
 condition=[
-    "AnimationController",
-    "Hull",                                        # stuck bot
-    #"AttachedAnimatedObject",
+    "AttachedAnimatedObject",
     ]
 
 def execute(filename, backupfiledata, modifyggpk):
@@ -18,6 +16,6 @@ def execute(filename, backupfiledata, modifyggpk):
     mi=re.finditer(r'((\w+)[\t\r\n ]*\{.*?\}[\t\r ]*(\n|$))', filedatamod, flags=re.DOTALL)
     for mii in mi :
         tagis=mii.group(2)
-        if tagis not in condition :
+        if tagis in condition :
             filedatamod=re.sub(tagis+r'[\t\r\n ]*\{.*?\}[\t\r ]*(\n|$)', tagis+r'\r\n{\r\n}\r\n', filedatamod, flags=re.DOTALL)
     return filedatamod, encoding, bom
