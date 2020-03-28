@@ -38,11 +38,11 @@ execute "mtd"
 
 title "[Beta] +fps Remove all players"
 restriction "^\./Metadata/Characters/Character.otc$"
-execute "aps310_otc.py"
+execute "aps310_otc"
 
 title "[Beta] ++fps Remove all monsters"
 restriction "^\./Metadata/Monsters/Monster.otc$"
-execute "aps310_otc.py"
+execute "aps310_otc"
 
 title "[Experimental] +++fps No monster/enviroment sounds (.aoc)"
 restriction "\.aoc$"
