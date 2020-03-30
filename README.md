@@ -1,6 +1,6 @@
 [Гайд для 2HEAD на русском](https://youtu.be/JfGD9HfGwp4)
 
-![preview](https://cdn.discordapp.com/attachments/689969482520723464/693124993525219368/unknown.png)
+![preview](https://cdn.discordapp.com/attachments/689969482520723464/693919200841826365/unknown.png
 
 # IMPORTANT
 
