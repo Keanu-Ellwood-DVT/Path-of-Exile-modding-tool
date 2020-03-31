@@ -1,6 +1,6 @@
 # Preview
 
-![preview1](https://cdn.discordapp.com/attachments/689969482520723464/694654776432132116/unknown.png)
+![preview1](https://i.imgur.com/kcK5NBI.jpg)
 
 ![toolOptions](https://cdn.discordapp.com/attachments/689969482520723464/693919200841826365/unknown.png)
 
