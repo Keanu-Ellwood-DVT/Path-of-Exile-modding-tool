@@ -2,18 +2,6 @@
 
 ![preview](https://cdn.discordapp.com/attachments/689969482520723464/693919200841826365/unknown.png)
 
-# IMPORTANT
-
-Run defrag ggpk_defragment.exe after to make it compatible with tools like poesmoother, visual ggpk, etc
-
-# Whats new
-
-Updated to autoload exception list from exception.txt
-
-Updated .env to 3.9
-
-Remove delirium fog
-
 # How to use
 
 * Go to https://www.python.org/downloads/windows/ -> Click Latest Python 3 Release -> Scroll and find "Windows x86-64 executable installer" -> Start installer -> Check add to PATH
