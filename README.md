@@ -1,8 +1,11 @@
-[Гайд для 2HEAD на русском](https://youtu.be/JfGD9HfGwp4)
+# Preview
+![preview1](https://cdn.discordapp.com/attachments/689969482520723464/694654776432132116/unknown.png)
 
-![preview](https://cdn.discordapp.com/attachments/689969482520723464/693919200841826365/unknown.png)
+![toolOptions](https://cdn.discordapp.com/attachments/689969482520723464/693919200841826365/unknown.png)
 
 # How to use
+
+[Гайд для 2HEAD на русском](https://youtu.be/JfGD9HfGwp4)
 
 * Go to https://www.python.org/downloads/windows/ -> Click Latest Python 3 Release -> Scroll and find "Windows x86-64 executable installer" -> Start installer -> Check add to PATH
 
@@ -38,9 +41,6 @@ It will replace 2 shadow and 1 regular fog shader files, 2 delirium fog files.
 https://github.com/poemods/Path-of-Exile-modding-tool
 
 2 avs for exception list and fog idea
-
-# End result (3.10 during delirium event)
-![endresult](https://cdn.discordapp.com/attachments/343015052967673856/689917744887627889/unknown.png)
 
 # Troubleshooting
 
