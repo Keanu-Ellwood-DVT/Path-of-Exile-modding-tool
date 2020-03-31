@@ -36,7 +36,7 @@ title "[Stable] +fps Remove Terrain Decals 2/2 (.mtd)"
 restriction "\.mtd$"
 execute "mtd"
 
-title "[Stable] +++fps No monster/enviroment sounds (.aoc)"
+title "[Stable, NVIDIA only] +++fps No monster/enviroment sounds (.aoc)"
 restriction "\.aoc$"
 execute "aps310_aoc"
 
