@@ -16,34 +16,34 @@ title "[Stable] ++fps Reduce particles (.pet)" colorgreen
 restriction "\.pet$"
 execute "aps310_pet"
 
-title "[Beta] +fps Remove AttachedAnimatedObject (.ao)"
+title "[Stable] +fps Remove AttachedAnimatedObject (.ao)"
 restriction "\.ao$"
 execute "ao"
 
-title "[Beta] +fps Remove Decals grass plants slime gore (.atlas)" 
+title "[Stable] +fps Remove Decals grass plants slime gore (.atlas)" 
 restriction "\.atlas$"
 execute "atlas"
 
-title "[Beta] +fps Remove Rooms Decals (.arm)"
+title "[Stable] +fps Remove Rooms Decals (.arm)"
 restriction "\.arm$"
 execute "arm"
 
-title "[Beta] +fps Remove Terrain Decals 1/2 (.dlp)"
+title "[Stable] +fps Remove Terrain Decals 1/2 (.dlp)"
 restriction "\.dlp$"
 execute "dlp"
 
-title "[Beta] +fps Remove Terrain Decals 2/2 (.mtd)"
+title "[Stable] +fps Remove Terrain Decals 2/2 (.mtd)"
 restriction "\.mtd$"
 execute "mtd"
 
-title "[Beta] +++fps No monster/enviroment sounds (.aoc)"
+title "[Stable] +++fps No monster/enviroment sounds (.aoc)"
 restriction "\.aoc$"
 execute "aps310_aoc"
 
-title "[Beta] Remove all players"
+title "[Optional] Remove all players"
 restriction "^\./Metadata/Characters/Character.otc$"
 execute "aps310_otc"
 
-title "[Beta] Remove all monsters"
+title "[Optional] Remove all monsters"
 restriction "^\./Metadata/Monsters/Monster.otc$"
 execute "aps310_otc"
