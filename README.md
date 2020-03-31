@@ -1,4 +1,6 @@
-![preview](https://cdn.discordapp.com/attachments/689969482520723464/693124993525219368/unknown.png)
+[Гайд для 2HEAD на русском](https://youtu.be/JfGD9HfGwp4)
+
+![preview](https://cdn.discordapp.com/attachments/689969482520723464/693919200841826365/unknown.png)
 
 # IMPORTANT
 
@@ -51,8 +53,6 @@ https://github.com/poemods/Path-of-Exile-modding-tool
 
 # End result (3.10 during delirium event)
 ![endresult](https://cdn.discordapp.com/attachments/343015052967673856/689917744887627889/unknown.png)
-
-[Гайд для 2HEAD на русском](https://translate.google.com/translate?hl=&sl=auto&tl=ru&u=https%3A%2F%2Fgithub.com%2Fvadash%2FPath-of-Exile-modding-tool%2F)
 
 # Troubleshooting
 
