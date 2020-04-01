@@ -28,7 +28,7 @@ Press Scan and wait
 
 It will replace 2 shadow and 1 regular fog shader files, 2 delirium fog files.
 
-* Automods -> PoeSmoother -> Check env, ot, epk, pet (top 4 boxes). Experimenta options are not stable. You are warned ;)
+* Automods -> PoeSmoother -> Check all stable options you may need
 
 * Press modify, wait
 
