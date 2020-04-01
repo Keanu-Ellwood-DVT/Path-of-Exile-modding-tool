@@ -1,6 +1,6 @@
 ![preview1](https://i.imgur.com/kcK5NBI.jpg)
 
-![toolOptions](https://cdn.discordapp.com/attachments/689969482520723464/693919200841826365/unknown.png)
+![toolOptions](https://i.imgur.com/xtat1om.png)
 
 # How to use
 
