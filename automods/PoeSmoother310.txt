@@ -1,20 +1,24 @@
 name "PoeSmoother 3.10"
 
+title "[Stable, NVIDIA] +++fps No monster/enviroment sounds (.aoc)"
+restriction "\.aoc$"
+execute "aps310_aoc"
+
+title "[Stable, NVIDIA] ++fps Reduce effects (.epk)" colorgreen
+restriction "\.epk$"
+execute "aps310_epk"
+
 title "[Stable] ++fps Remove fog/shadows (.env)" colorgreen
 restriction "\.env$"
 execute "aps310_env"
 
-title "[Stable] +fps Remove dead bodies (.ot)" colorgreen
-restriction "^\./Metadata/Monsters/Monster\.ot$"
-execute "aps310_ot"
-
-title "[Stable] ++fps Reduce effects (.epk)" colorgreen
-restriction "\.epk$"
-execute "aps310_epk"
-
 title "[Stable] ++fps Reduce particles (.pet)" colorgreen
 restriction "\.pet$"
 execute "aps310_pet"
+
+title "[Stable] +fps Remove dead bodies (.ot)" colorgreen
+restriction "^\./Metadata/Monsters/Monster\.ot$"
+execute "aps310_ot"
 
 title "[Stable] +fps Remove AttachedAnimatedObject (.ao)"
 restriction "\.ao$"
@@ -35,10 +39,6 @@ execute "dlp"
 title "[Stable] +fps Remove Terrain Decals 2/2 (.mtd)"
 restriction "\.mtd$"
 execute "mtd"
-
-title "[Stable, NVIDIA only] +++fps No monster/enviroment sounds (.aoc)"
-restriction "\.aoc$"
-execute "aps310_aoc"
 
 title "[Optional] Remove all players"
 restriction "^\./Metadata/Characters/Character.otc$"
