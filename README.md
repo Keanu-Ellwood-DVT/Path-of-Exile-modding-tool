@@ -1,6 +1,6 @@
 ![preview1](https://i.imgur.com/kcK5NBI.jpg)
 
-![toolOptions](https://i.imgur.com/xtat1om.png)
+![toolOptions](https://i.imgur.com/TemEJBY.png)
 
 # How to use
 
