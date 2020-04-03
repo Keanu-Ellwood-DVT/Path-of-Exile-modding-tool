@@ -12,4 +12,3 @@ FrostFury
 Conduit_Sigil
 /League_Legion/RewardSystem/
 /atlasexiles/Orion
-fogAttachment

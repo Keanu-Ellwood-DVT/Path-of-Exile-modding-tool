@@ -4,6 +4,7 @@ masterfilter_restrict=[
     ]
 
 masterfilter_exclude=[
+        r'fogAttachment',
     ]
 
 # we null this
