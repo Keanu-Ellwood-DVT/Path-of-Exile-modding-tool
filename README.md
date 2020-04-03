@@ -61,6 +61,6 @@ Try again
 
 ## Permission denied
 
-Right click poe folder -> Security -> Edit -> Add -> Advanced -> Find now -> Select "Everyone" -> Ok -> Click on "Everyone" -> Click allow full control
+Right click poe folder -> Security -> Edit -> Add -> Advanced -> Find now -> Select "Everyone" -> Ok -> Click on "Everyone" -> Click allow full control -> Ok -> Ok
 
 ![access](https://i.imgur.com/nkdVySn.png)
