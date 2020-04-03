@@ -20,7 +20,9 @@ New big p o e patch ? Delete folder *кeeр* before starting
 
 ![install](https://i.imgur.com/5fpbdHL.png)
 
-* Run **Start.cmd** Provide path to ggpk (example, C:\games\poe\Content.ggpk)
+* Run **Start.cmd** 
+
+Provide path to ggpk (example, C:\games\poe\Content.ggpk)
 
 ![install](https://i.imgur.com/QFt4iM1.png)
 
@@ -30,7 +32,9 @@ Press Scan and wait
 
 * Press modify, wait
 
-* Press insert (it will insert null shadow shader), wait, it should say "5 file inserted"
+* Press insert (it will insert null shadow shader), wait, it should say "5 file inserted". If you dont press insert after all modifications you will get bug like this in delirium
+
+![bug](https://i.imgur.com/q7tW2wr.png)
 
 It will replace 2 shadow and 1 regular fog shader files, 2 delirium fog files.
 
