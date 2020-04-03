@@ -32,11 +32,9 @@ Press Scan and wait
 
 * Press modify, wait
 
-* Press insert (it will insert null shadow shader), wait, it should say "5 file inserted". If you dont press insert after all modifications you will get bug like this in delirium
+* Press insert (it will replace 2 shadow and 1 regular fog shader files, 2 delirium fog files), wait, it should say "5 file inserted". If you dont press insert after all modifications you will get bug like this in delirium
 
 ![bug](https://i.imgur.com/q7tW2wr.png)
-
-It will replace 2 shadow and 1 regular fog shader files, 2 delirium fog files.
 
 * [optional] Use included defragmentator (ggpk_defragment.exe) after big patches. Takes up to 10 minutes on SSD
 
