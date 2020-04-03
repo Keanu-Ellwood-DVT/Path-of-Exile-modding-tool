@@ -1,6 +1,8 @@
-![preview1](https://i.imgur.com/gpwEPCN.png)
+![preview](https://media.discordapp.net/attachments/343015052967673856/695430853626691674/unknown.png)
 
-![toolOptions](https://i.imgur.com/TemEJBY.png)
+![ram](https://cdn.discordapp.com/attachments/681946378473046060/695428210011406366/unknown.png)
+
+![toolOptions](https://i.imgur.com/gpwEPCN.png)
 
 # How to use
 
