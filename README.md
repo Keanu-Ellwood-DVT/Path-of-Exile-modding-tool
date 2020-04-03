@@ -26,15 +26,15 @@ New big p o e patch ? Delete folder *кeeр* before starting
 
 Press Scan and wait
 
-* Press insert (it will insert null shadow shader), wait, it should say "5 file inserted"
-
-It will replace 2 shadow and 1 regular fog shader files, 2 delirium fog files.
-
 * Automods -> PoeSmoother -> Check all stable options you may need
 
 * Press modify, wait
 
-* [optional] Use defragmentator (ggpk_defragment.exe) after big patches. Takes up to 10 minutes on SSD
+* Press insert (it will insert null shadow shader), wait, it should say "5 file inserted"
+
+It will replace 2 shadow and 1 regular fog shader files, 2 delirium fog files.
+
+* [optional] Use included defragmentator (ggpk_defragment.exe) after big patches. Takes up to 10 minutes on SSD
 
 # Credits
 
