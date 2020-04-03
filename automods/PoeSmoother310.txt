@@ -61,7 +61,7 @@ restriction "/Art/Textures/Misc/.*\.dds$"
 restriction "/Art/Textures/Monsters/.*\.dds$"
 restriction "/Art/Textures/NPC/.*\.dds$"
 restriction "/Art/Textures/Pet/.*\.dds$"
-execute "potato_dds"
+execute "aps310_dds"
 
 title "[Bot PC @ vmware] Reduce textures even further (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
