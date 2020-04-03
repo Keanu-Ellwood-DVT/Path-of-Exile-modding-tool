@@ -2,7 +2,7 @@
 
 ![preview](https://i.imgur.com/dbS7kl9.jpg)
 
-![toolOptions](https://i.imgur.com/gpwEPCN.png)
+![toolOptions](https://i.imgur.com/8BFEF2a.png)
 
 # How to use
 
