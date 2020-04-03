@@ -1,10 +1,10 @@
 name "PoeSmoother 3.10"
 
-title "[Stable, NVIDIA] +++fps No monster/enviroment sounds (.aoc)"
+title "[Stable] +++fps No monster/enviroment sounds (.aoc)"
 restriction "\.aoc$"
 execute "aps310_aoc"
 
-title "[Stable, NVIDIA] ++fps Reduce effects (.epk)" colorgreen
+title "[Stable] ++fps Reduce effects (.epk)" colorgreen
 restriction "\.epk$"
 execute "aps310_epk"
 
