@@ -58,3 +58,9 @@ Delete folders CachedHLSLShaders, ShaderCacheD3D11 from poe root folder
 Delete keep folder in Path-of-Exile-modding-tool
 
 Try again
+
+## Permission denied
+
+Right clik poe folder -> Security -> Add user "Everyone" -> Allow full control
+
+![access](https://i.imgur.com/nkdVySn.png)
