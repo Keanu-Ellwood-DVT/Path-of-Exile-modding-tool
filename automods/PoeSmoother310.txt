@@ -48,7 +48,7 @@ title "[Optional] Remove all monsters"
 restriction "^\./Metadata/Monsters/Monster.otc$"
 execute "aps310_otc"
 
-title "[Beta] Reduce textures (.dds)"
+title "[Potato PC] Reduce textures (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
 exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
 exclude "/Art/2DArt/.*\.dds$"
@@ -61,4 +61,19 @@ restriction "/Art/Textures/Misc/.*\.dds$"
 restriction "/Art/Textures/Monsters/.*\.dds$"
 restriction "/Art/Textures/NPC/.*\.dds$"
 restriction "/Art/Textures/Pet/.*\.dds$"
-execute "aps310_dds"
+execute "potato_dds"
+
+title "[Bot PC @ vmware] Reduce textures even further (.dds)"
+exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
+exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
+exclude "/Art/2DArt/.*\.dds$"
+exclude "/Art/Microtransactions/.*\.dds$"
+restriction "/Art/Models/.*\.dds$"
+restriction "/Art/Textures/Characters/.*\.dds$"
+restriction "/Art/Textures/Doodads/.*\.dds$"
+restriction "/Art/Textures/Environment/.*\.dds$"
+restriction "/Art/Textures/Misc/.*\.dds$"
+restriction "/Art/Textures/Monsters/.*\.dds$"
+restriction "/Art/Textures/NPC/.*\.dds$"
+restriction "/Art/Textures/Pet/.*\.dds$"
+execute "bots_dds"
