@@ -24,7 +24,7 @@ def execute(filename, filedata, modifyggpk):
         #   -  or max size allowed = width or height 32 :
         # filedata = dds.stripbiggermipmapthan(32)
 
-        filedata = dds.stripbiggermipmapthan(256)
+        filedata = dds.stripbiggermipmapthan(128)
 
     except Exception as e :
         print("%s %s" % (str(e), filename))
