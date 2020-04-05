@@ -1,8 +1,8 @@
-![ram](https://cdn.discordapp.com/attachments/681946378473046060/695428210011406366/unknown.png)
+![ram](https://cdn.discordapp.com/attachments/689969482520723464/695970176046202920/unknown.png)
 
 ![preview](https://i.imgur.com/dbS7kl9.jpg)
 
-![toolOptions](https://i.imgur.com/8BFEF2a.png)
+![toolOptions](https://i.imgur.com/vWgIIIZ.png)
 
 # How to use
 
@@ -37,6 +37,8 @@ Press Scan and wait
 ![bug](https://i.imgur.com/q7tW2wr.png)
 
 * [optional] Use included defragmentator (ggpk_defragment.exe) after big patches. Takes up to 10 minutes on SSD
+
+P.S. You still need SSD to play poe
 
 # Credits
 
