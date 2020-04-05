@@ -38,6 +38,8 @@ Press Scan and wait
 
 * [optional] Use included defragmentator (ggpk_defragment.exe) after big patches. Takes up to 10 minutes on SSD
 
+P.S. You still need SSD to play poe
+
 # Credits
 
 1 poemods (original repo)
