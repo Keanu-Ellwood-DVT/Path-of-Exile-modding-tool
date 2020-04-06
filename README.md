@@ -8,7 +8,7 @@
 
 [Гайд для 2HEAD на русском](https://youtu.be/JfGD9HfGwp4)
 
-* Go to https://www.python.org/downloads/windows/ -> Click Latest Python 3 Release -> Scroll and find "Windows x86-64 executable installer" -> Start installer -> Check add to PATH
+* Go to https://www.python.org/downloads/windows/ -> Click Latest Python 3 Release -> Scroll and find "Windows x86-64 executable installer" -> Start installer -> **Check add to PATH**
 
 ![install](https://i.imgur.com/WGL3CSw.png)
 
