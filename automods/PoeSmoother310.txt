@@ -1,10 +1,10 @@
 name "PoeSmoother 3.10"
 
-title "[Stable] +++fps No monster/enviroment sounds (.aoc)"
+title "[Stable] +++fps Remove sounds and skin meshes (.aoc)"
 restriction "\.aoc$"
 execute "aps310_aoc"
 
-title "[Stable] ++fps Reduce effects (.epk)" colorgreen
+title "[Stable] ++fps Zero effects (.epk)" colorgreen
 restriction "\.epk$"
 execute "aps310_epk"
 
@@ -12,7 +12,7 @@ title "[Stable] ++fps Remove fog/shadows (.env)" colorgreen
 restriction "\.env$"
 execute "aps310_env"
 
-title "[Stable] ++fps Reduce particles (.pet)" colorgreen
+title "[Stable] ++fps Zero particles (.pet)" colorgreen
 restriction "\.pet$"
 execute "aps310_pet"
 
@@ -40,7 +40,7 @@ title "[Stable] +fps Remove Terrain Decals 2/2 (.mtd)"
 restriction "\.mtd$"
 execute "mtd"
 
-title "[Potato PC, fast] Reduce textures (.dds)"
+title "[Potato PC] Reduce textures (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
 exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
 exclude "/Art/2DArt/.*\.dds$"
@@ -63,7 +63,7 @@ title "[Optional] Remove all monsters"
 restriction "^\./Metadata/Monsters/Monster.otc$"
 execute "aps310_otc"
 
-title "[Beta] Remove materials (.mat)"
+title "[Bot] ++ fps Remove all materials (.mat)"
 restriction "/Art/Microtransactions/.*\.mat$"
 restriction "/Art/Models/.*\.mat$"
 restriction "/Art/Particles/.*\.mat$"
