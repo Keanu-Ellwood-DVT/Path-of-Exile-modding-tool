@@ -55,11 +55,11 @@ restriction "/Art/Textures/NPC/.*\.dds$"
 restriction "/Art/Textures/Pet/.*\.dds$"
 execute "aps310_dds"
 
-title "[Optional] Remove all players"
+title "[Bot] Remove all players"
 restriction "^\./Metadata/Characters/Character.otc$"
 execute "aps310_otc"
 
-title "[Optional] Remove all monsters"
+title "[Bot] Remove all monsters"
 restriction "^\./Metadata/Monsters/Monster.otc$"
 execute "aps310_otc"
 
