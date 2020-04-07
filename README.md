@@ -8,11 +8,11 @@
 
 [Гайд для 2HEAD на русском](https://youtu.be/JfGD9HfGwp4)
 
-* Go to https://www.python.org/downloads/windows/ -> Click Latest Python 3 Release -> Scroll and find "Windows x86-64 executable installer" -> Start installer -> Check add to PATH
+* Go to https://www.python.org/downloads/windows/ -> Click Latest Python 3 Release -> Scroll and find "Windows x86-64 executable installer" -> Start installer -> **Check add to PATH**
 
 ![install](https://i.imgur.com/WGL3CSw.png)
 
-* [Download script](https://github.com/vadash/Path-of-Exile-modding-tool/archive/master.zip) Unpack somewhere and open folder
+* [Download script](https://github.com/vadash/Path-of-Exile-modding-tool/archive/master.zip) Unpack somewhere and open script folder (Path-of-Exile-modding-tool-master)
 
 !AMD GPU! Remove `Path-of-Exile-modding-tool-master\extracted\Shaders` before running tool !AMD GPU!
 
@@ -30,9 +30,9 @@ Press Scan and wait
 
 * Automods -> PoeSmoother -> Check all stable options you may need
 
-* Press modify, wait
+* Press modify, wait for script to finish (~10 minutes with SSD)
 
-* Press insert (it will replace 2 shadow and 1 regular fog shader files, 2 delirium fog files), wait, it should say "5 file inserted". If you dont press insert after all modifications you will get bug like this in delirium
+* Press insert button (it will replace 2 shadow and 1 regular fog shader, 2 delirium fog, 2 delve lighting files), wait, it should say "7 file inserted". If you dont press insert button (not keyboard key) after all modifications you will get bug like this in delirium
 
 ![bug](https://i.imgur.com/q7tW2wr.png)
 
