@@ -14,20 +14,7 @@ masterfilter_restrict=[
 masterfilter_exclude=[
     ]
 
-condition={
-   "my_default" : "Additive",
-   "Opaque" : "OpaqueNoShadow",
-   "OpaqueNoShadow" : "OpaqueNoShadow",
-   "AlphaTest" : "AlphaTest",
-   "AlphaBlend" : "AlphaBlend",
-   "ShadowOnlyAlphaTest" : "Additive",
-   "PremultipliedAlphaBlend" : "Additive",
-   "MultiplicitiveBlend" : "Additive",
-   "AlphaTestWithShadow" : "Additive",
-   }
-
 def execute(filename, backupfiledata, modifyggpk):
     filedata, encoding, bom = modifyggpk.stringcleanup(backupfiledata, "UTF-16-LE")
-    filedatamod="Version 3"
+    filedatamod="Version 3\r\nBlendMode AlphaBlend\r\n"
     return filedatamod, encoding, bom
-

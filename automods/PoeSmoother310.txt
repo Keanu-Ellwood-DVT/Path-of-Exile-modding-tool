@@ -69,10 +69,12 @@ restriction "/Art/Microtransactions/.*\.mat$"
 execute "aps310_mat"
 
 title "[Beta] +fps Remove Items on the ground materials (.mat)"
+exclude "portal"
 restriction "/Art/Textures/Items/.*\.mat$"
 execute "aps310_mat"
 
 title "[Beta] +fps Remove Particles materials (.mat)"
+exclude "portal"
 restriction "/Art/Particles/.*\.mat$"
 execute "aps310_mat"
 
