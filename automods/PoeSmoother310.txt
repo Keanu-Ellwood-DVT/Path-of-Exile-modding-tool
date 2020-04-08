@@ -1,36 +1,40 @@
-name "PoeSmoother 3.10"
+name "PoeSmoother"
 
 title "[Stable] +++fps Remove sounds and skin meshes (.aoc)"
 restriction "\.aoc$"
 execute "aps310_aoc"
 
-title "[Stable] ++fps Zero effects (.epk)" colorgreen
+title "[Stable] ++fps Zero effects (.epk)"
 restriction "\.epk$"
 execute "aps310_epk"
 
-title "[Stable] ++fps Remove fog/shadows (.env)" colorgreen
+title "[Stable] ++fps Remove fog/shadows (.env)"
 restriction "\.env$"
 execute "aps310_env"
 
-title "[Stable] ++fps Zero particles (.pet)" colorgreen
+title "[Bot] +++fps Zero (.env)"
+restriction "\.env$"
+execute "zero_env"
+
+title "[Stable] ++fps Zero particles (.pet)"
 restriction "\.pet$"
 execute "aps310_pet"
 
-title "[Stable] +fps Remove dead bodies (.ot)" colorgreen
+title "[Stable] +fps Remove dead bodies (.ot)"
 restriction "^\./Metadata/Monsters/Monster\.ot$"
 execute "aps310_ot"
 
-title "[Beta] +fps Remove MTX materials (.mat)"
+title "[Bot] +fps Remove MTX materials (.mat)"
 exclude "portal"
 restriction "/Art/Microtransactions/.*\.mat$"
 execute "aps310_mat"
 
-title "[Beta] +fps Remove Items on the ground materials (.mat)"
+title "[Stable] +fps Remove Items on the ground materials (.mat)"
 exclude "portal"
 restriction "/Art/Textures/Items/.*\.mat$"
 execute "aps310_mat"
 
-title "[Beta] +fps Remove Particles materials (.mat)"
+title "[Stable] +fps Remove Particles materials (.mat)"
 exclude "portal"
 restriction "/Art/Particles/.*\.mat$"
 execute "aps310_mat"
