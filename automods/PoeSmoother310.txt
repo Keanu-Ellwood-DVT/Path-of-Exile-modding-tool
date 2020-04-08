@@ -63,9 +63,19 @@ title "[Bot] Remove all monsters"
 restriction "^\./Metadata/Monsters/Monster.otc$"
 execute "aps310_otc"
 
-title "[Bot] ++fps Remove all materials (.mat)"
+title "[Beta] +fps Remove MTX materials (.mat)"
+exclude "portal"
 restriction "/Art/Microtransactions/.*\.mat$"
-restriction "/Art/Models/.*\.mat$"
+execute "aps310_mat"
+
+title "[Beta] +fps Remove Items on the ground materials (.mat)"
+restriction "/Art/Textures/Items/.*\.mat$"
+execute "aps310_mat"
+
+title "[Beta] +fps Remove Particles materials (.mat)"
 restriction "/Art/Particles/.*\.mat$"
+execute "aps310_mat"
+
+title "[Bot] +fps Remove Texture materials (.mat)"
 restriction "/Art/Textures/.*\.mat$"
 execute "aps310_mat"
