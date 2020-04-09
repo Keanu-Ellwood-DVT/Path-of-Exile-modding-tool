@@ -32,7 +32,7 @@ Press Scan and wait
 
 * Press modify, wait for script to finish (~10 minutes with SSD)
 
-* Press insert button (it will replace 2 shadow and 1 regular fog shader, 2 delirium fog, 2 delve lighting files), wait, it should say "7 file inserted". If you dont press insert button (not keyboard key) after all modifications you will get bug like this in delirium
+* Press insert button (it will replace 2 shadow and 1 regular fog shader, 2 delirium fog, 2 delve lighting files), wait, it should say "X file inserted", X < 50. If you dont press insert button (not keyboard key) after all modifications you will get bug like this in delirium
 
 ![bug](https://i.imgur.com/q7tW2wr.png)
 
