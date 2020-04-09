@@ -28,7 +28,7 @@ Provide path to ggpk (example, C:\games\poe\Content.ggpk)
 
 Press Scan and wait
 
-* Automods -> PoeSmoother -> Check everything except [bot] and [experimental]
+* Automods -> PoeSmoother -> Check everything you need except [bot], [optional], [experimental]
 
 * Press modify, wait for script to finish (~10 minutes with SSD)
 
