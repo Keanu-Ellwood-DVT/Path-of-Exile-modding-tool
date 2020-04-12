@@ -2,7 +2,7 @@
 
 ![preview](https://i.imgur.com/dbS7kl9.jpg)
 
-![toolOptions](https://i.imgur.com/vWgIIIZ.png)
+![toolOptions](https://i.imgur.com/b68cnDM.png)
 
 # How to use
 
@@ -28,11 +28,11 @@ Provide path to ggpk (example, C:\games\poe\Content.ggpk)
 
 Press Scan and wait
 
-* Automods -> PoeSmoother -> Check all stable options you may need
+* Automods -> PoeSmoother -> Check everything you need except [bot], [optional], [experimental]
 
 * Press modify, wait for script to finish (~10 minutes with SSD)
 
-* Press insert button (it will replace 2 shadow and 1 regular fog shader, 2 delirium fog, 2 delve lighting files), wait, it should say "7 file inserted". If you dont press insert button (not keyboard key) after all modifications you will get bug like this in delirium
+* Press insert button (it will replace 2 shadow and 1 regular fog shader, 2 delirium fog, 2 delve lighting files), wait, it should say "X file inserted", X < 50. If you dont press insert button (not keyboard key) after all modifications you will get bug like this in delirium
 
 ![bug](https://i.imgur.com/q7tW2wr.png)
 
@@ -59,7 +59,7 @@ Delete folders CachedHLSLShaders, ShaderCacheD3D11 from poe root folder
 
 Delete keep folder in Path-of-Exile-modding-tool
 
-Try again
+Now apply settings 1 by 1 and check where it crashed before
 
 ## Permission denied
 
