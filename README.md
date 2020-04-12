@@ -59,7 +59,7 @@ Delete folders CachedHLSLShaders, ShaderCacheD3D11 from poe root folder
 
 Delete keep folder in Path-of-Exile-modding-tool
 
-Try again
+Now apply settings 1 by 1 and check where it crashed before
 
 ## Permission denied
 
