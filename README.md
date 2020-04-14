@@ -66,3 +66,7 @@ Now apply settings 1 by 1 and check where it crashed before
 Right click poe folder -> Security -> Edit -> Add -> Advanced -> Find now -> Select "Everyone" -> Ok -> Click on "Everyone" -> Click allow full control -> Ok -> Ok
 
 ![access](https://i.imgur.com/nkdVySn.png)
+
+## Failed to load ggpk invalid tag X
+
+Close game -> Run included ggpk_defragment.exe -> Wait to finish
