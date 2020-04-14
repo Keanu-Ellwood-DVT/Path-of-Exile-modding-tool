@@ -63,6 +63,8 @@ Delete keep folder in Path-of-Exile-modding-tool
 
 Now apply settings 1 by 1 and check where it crashed before
 
+*Report* it here https://github.com/vadash/Path-of-Exile-modding-tool/issues or here https://www.ownedcore.com/forums/mmo/path-of-exile/poe-bots-programs/661920-path-of-exile-modding-tool-mods-1.html
+
 ## Permission denied
 
 Right click poe folder -> Security -> Edit -> Add -> Advanced -> Find now -> Select "Everyone" -> Ok -> Click on "Everyone" -> Click allow full control -> Ok -> Ok
