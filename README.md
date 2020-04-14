@@ -1,6 +1,12 @@
 ![ram](https://cdn.discordapp.com/attachments/689969482520723464/695970176046202920/unknown.png)
 
-![preview](https://i.imgur.com/dbS7kl9.jpg)
+You can make this (stable + optional + potato)
+
+![preview1](https://i.imgur.com/dbS7kl9.jpg)
+
+Or this (+bot). This tool is very flexiable
+
+![preview2](https://i.imgur.com/zNu2tDp.png)
 
 ![toolOptions](https://i.imgur.com/b68cnDM.png)
 
