@@ -12,10 +12,6 @@ title "[Stable] ++fps Remove fog/shadows (.env)"
 restriction "\.env$"
 execute "aps310_env"
 
-title "[Bot] +++fps Zero (.env)"
-restriction "\.env$"
-execute "zero_env"
-
 title "[Stable] ++fps Zero particles (.pet)"
 restriction "\.pet$"
 execute "aps310_pet"
@@ -24,19 +20,14 @@ title "[Stable] +fps Remove dead bodies (.ot)"
 restriction "^\./Metadata/Monsters/Monster\.ot$"
 execute "aps310_ot"
 
-title "[Bot] +fps Remove MTX materials (.mat)"
-exclude "portal"
-restriction "/Art/Microtransactions/.*\.mat$"
-execute "aps310_mat"
-
-title "[Optional] ++fps Remove Items on the ground (ON CHARACTER TOO) materials (.mat)"
-exclude "portal"
-restriction "/Art/Textures/Items/.*\.mat$"
-execute "aps310_mat"
-
 title "[Stable] +fps Remove Particles materials (.mat)"
 exclude "portal"
 restriction "/Art/Particles/.*\.mat$"
+execute "aps310_mat"
+
+title "[Optional] ++fps Remove Items on ground and character (.mat)"
+exclude "portal"
+restriction "/Art/Textures/Items/.*\.mat$"
 execute "aps310_mat"
 
 title "[Optional] Remove AttachedAnimatedObject (.ao)"
@@ -73,6 +64,15 @@ restriction "/Art/Textures/Monsters/.*\.dds$"
 restriction "/Art/Textures/NPC/.*\.dds$"
 restriction "/Art/Textures/Pet/.*\.dds$"
 execute "aps310_dds"
+
+title "[Bot] +++fps Zero (.env)"
+restriction "\.env$"
+execute "zero_env"
+
+title "[Bot] +fps Remove MTX materials (.mat)"
+exclude "portal"
+restriction "/Art/Microtransactions/.*\.mat$"
+execute "aps310_mat"
 
 title "[Bot] Remove all players"
 restriction "^\./Metadata/Characters/Character.otc$"
