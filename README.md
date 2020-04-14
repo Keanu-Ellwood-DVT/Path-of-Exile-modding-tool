@@ -1,6 +1,12 @@
 ![ram](https://cdn.discordapp.com/attachments/689969482520723464/695970176046202920/unknown.png)
 
-![preview](https://i.imgur.com/dbS7kl9.jpg)
+You can make this (stable + optional + potato)
+
+![preview1](https://i.imgur.com/dbS7kl9.jpg)
+
+Or this (everything ON). This tool is very flexiable
+
+![preview2](https://i.imgur.com/zNu2tDp.png)
 
 ![toolOptions](https://i.imgur.com/b68cnDM.png)
 
@@ -14,12 +20,6 @@
 
 * [Download script](https://github.com/vadash/Path-of-Exile-modding-tool/archive/master.zip) Unpack somewhere and open script folder (Path-of-Exile-modding-tool-master)
 
-!AMD GPU! Remove `Path-of-Exile-modding-tool-master\extracted\Shaders` before running tool !AMD GPU!
-
-New big p o e patch ? Delete folder *кeeр* before starting
-
-![install](https://i.imgur.com/5fpbdHL.png)
-
 * Run **Start.cmd** 
 
 Provide path to ggpk (example, C:\games\poe\Content.ggpk)
@@ -32,17 +32,15 @@ Press Scan and wait
 
 * Press modify, wait for script to finish (~10 minutes with SSD)
 
-* Press insert button (it will replace 2 shadow and 1 regular fog shader, 2 delirium fog, 2 delve lighting files), wait, it should say "X file inserted", X < 50. If you dont press insert button (not keyboard key) after all modifications you will get bug like this in delirium
-
-![bug](https://i.imgur.com/q7tW2wr.png)
-
-* [optional] Use included defragmentator (ggpk_defragment.exe) after big patches. Takes up to 10 minutes on SSD
+* Press insert button (it will replace 2 shadow and 1 regular fog shader, 2 delirium fog, 2 delve lighting files), wait, it should say "X file inserted"
 
 P.S. You still need SSD to play poe
 
 # Credits
 
-1 poemods (original repo)
+I am only supporting this.
+
+1 poemods (original repo) 95% work is his
 https://github.com/poemods/Path-of-Exile-modding-tool
 
 2 avs for exception list and fog idea
@@ -60,6 +58,8 @@ Delete folders CachedHLSLShaders, ShaderCacheD3D11 from poe root folder
 Delete keep folder in Path-of-Exile-modding-tool
 
 Now apply settings 1 by 1 and check where it crashed before
+
+*Report* it here https://github.com/vadash/Path-of-Exile-modding-tool/issues or here https://www.ownedcore.com/forums/mmo/path-of-exile/poe-bots-programs/661920-path-of-exile-modding-tool-mods-1.html
 
 ## Permission denied
 
