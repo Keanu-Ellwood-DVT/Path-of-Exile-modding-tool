@@ -42,7 +42,9 @@ P.S. You still need SSD to play poe
 
 # Credits
 
-1 poemods (original repo)
+I am only supporting this.
+
+1 poemods (original repo) 95% work is his
 https://github.com/poemods/Path-of-Exile-modding-tool
 
 2 avs for exception list and fog idea
