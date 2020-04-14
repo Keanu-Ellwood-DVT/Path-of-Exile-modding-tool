@@ -20,12 +20,6 @@ Or this (+bot). This tool is very flexiable
 
 * [Download script](https://github.com/vadash/Path-of-Exile-modding-tool/archive/master.zip) Unpack somewhere and open script folder (Path-of-Exile-modding-tool-master)
 
-!AMD GPU! Remove `Path-of-Exile-modding-tool-master\extracted\Shaders` before running tool !AMD GPU!
-
-New big p o e patch ? Delete folder *кeeр* before starting
-
-![install](https://i.imgur.com/5fpbdHL.png)
-
 * Run **Start.cmd** 
 
 Provide path to ggpk (example, C:\games\poe\Content.ggpk)
