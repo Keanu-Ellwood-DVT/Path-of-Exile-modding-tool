@@ -29,7 +29,7 @@ exclude "portal"
 restriction "/Art/Microtransactions/.*\.mat$"
 execute "aps310_mat"
 
-title "[Stable] +fps Remove Items on the ground materials (.mat)"
+title "[Optional] ++fps Remove Items on the ground (ON CHARACTER TOO) materials (.mat)"
 exclude "portal"
 restriction "/Art/Textures/Items/.*\.mat$"
 execute "aps310_mat"
