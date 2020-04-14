@@ -25,6 +25,21 @@ exclude "portal"
 restriction "/Art/Particles/.*\.mat$"
 execute "aps310_mat"
 
+title "[Potato PC] Reduce textures (.dds)"
+exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
+exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
+exclude "/Art/2DArt/.*\.dds$"
+exclude "/Art/Microtransactions/.*\.dds$"
+restriction "/Art/Models/.*\.dds$"
+restriction "/Art/Textures/Characters/.*\.dds$"
+restriction "/Art/Textures/Doodads/.*\.dds$"
+restriction "/Art/Textures/Environment/.*\.dds$"
+restriction "/Art/Textures/Misc/.*\.dds$"
+restriction "/Art/Textures/Monsters/.*\.dds$"
+restriction "/Art/Textures/NPC/.*\.dds$"
+restriction "/Art/Textures/Pet/.*\.dds$"
+execute "aps310_dds"
+
 title "[Optional] ++fps Remove Items on ground and character (.mat)"
 exclude "portal"
 restriction "/Art/Textures/Items/.*\.mat$"
@@ -49,21 +64,6 @@ execute "dlp"
 title "[Optional] Remove Terrain Decals 2/2 (.mtd)"
 restriction "\.mtd$"
 execute "mtd"
-
-title "[Potato PC] Reduce textures (.dds)"
-exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
-exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
-exclude "/Art/2DArt/.*\.dds$"
-exclude "/Art/Microtransactions/.*\.dds$"
-restriction "/Art/Models/.*\.dds$"
-restriction "/Art/Textures/Characters/.*\.dds$"
-restriction "/Art/Textures/Doodads/.*\.dds$"
-restriction "/Art/Textures/Environment/.*\.dds$"
-restriction "/Art/Textures/Misc/.*\.dds$"
-restriction "/Art/Textures/Monsters/.*\.dds$"
-restriction "/Art/Textures/NPC/.*\.dds$"
-restriction "/Art/Textures/Pet/.*\.dds$"
-execute "aps310_dds"
 
 title "[Bot] +++fps Zero (.env)"
 restriction "\.env$"
