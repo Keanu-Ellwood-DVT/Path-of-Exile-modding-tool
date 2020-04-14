@@ -32,11 +32,7 @@ Press Scan and wait
 
 * Press modify, wait for script to finish (~10 minutes with SSD)
 
-* Press insert button (it will replace 2 shadow and 1 regular fog shader, 2 delirium fog, 2 delve lighting files), wait, it should say "X file inserted", X < 50. If you dont press insert button (not keyboard key) after all modifications you will get bug like this in delirium
-
-![bug](https://i.imgur.com/q7tW2wr.png)
-
-* [optional] Use included defragmentator (ggpk_defragment.exe) after big patches. Takes up to 10 minutes on SSD
+* Press insert button (it will replace 2 shadow and 1 regular fog shader, 2 delirium fog, 2 delve lighting files), wait, it should say "X file inserted"
 
 P.S. You still need SSD to play poe
 
