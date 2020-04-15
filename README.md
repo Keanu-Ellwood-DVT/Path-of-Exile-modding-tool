@@ -8,7 +8,7 @@ Or this (everything ON). This tool is very flexiable
 
 ![preview2](https://i.imgur.com/zNu2tDp.png)
 
-![toolOptions](https://i.imgur.com/b68cnDM.png)
+![toolOptions](https://i.imgur.com/mcv4kE3.png)
 
 # How to use
 
