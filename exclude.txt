@@ -13,3 +13,5 @@ Conduit_Sigil
 /League_Legion/RewardSystem/
 /atlasexiles/Orion
 League_Affliction/fogAttachment
+Bearer
+Volatile
