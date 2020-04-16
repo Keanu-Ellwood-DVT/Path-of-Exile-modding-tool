@@ -8,9 +8,13 @@ title "[Stable] ++fps Zero effects (.epk)"
 restriction "\.epk$"
 execute "aps310_epk"
 
-title "[Stable] ++fps Remove fog/shadows (.env)"
+title "[Stable] fps Remove fog (.env)"
 restriction "\.env$"
-execute "aps310_env"
+execute "aps310_env_fog"
+
+title "[Stable] +fps Remove shadows (.env)"
+restriction "\.env$"
+execute "aps310_env_shadows"
 
 title "[Stable] ++fps Zero particles (.pet)"
 restriction "\.pet$"
