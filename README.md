@@ -36,14 +36,20 @@ Press Scan and wait
 
 P.S. You still need SSD to play poe
 
+# Support
+
+If you like what you see you can support me <3
+
+https://www.paypal.me/vadash
+
 # Credits
 
-I am only supporting this.
-
-1 poemods (original repo) 95% work is his
+* poemods (original repo) 95% work is his
 https://github.com/poemods/Path-of-Exile-modding-tool
 
-2 avs for exception list and fog idea
+* avs for exception list and fog idea
+
+* beta testers for bug testing <3
 
 # Troubleshooting
 
