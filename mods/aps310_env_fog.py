@@ -15,5 +15,5 @@ masterfilter_exclude=[
 
 def execute(filename, backupfiledata, modifyggpk):
     filedata, encoding, bom = modifyggpk.stringcleanup(backupfiledata, "UTF-16-LE")
-    filedatamod=re.sub(r'"exp_fog_is_enabled": true,', r'"exp_fog_is_enabled": false,', filedatamod)
+    filedatamod=re.sub(r'"exp_fog_is_enabled": true,', r'"exp_fog_is_enabled": false,', filedata)
     return filedatamod, encoding, bom
