@@ -26,17 +26,17 @@ Provide path to ggpk (example, C:\games\poe\Content.ggpk)
 
 ![install](https://i.imgur.com/QFt4iM1.png)
 
-Press Scan and wait
+Press Scan (you dont need to wait, every action is added to queue. DONT click twice)
 
-* Automods -> PoeSmoother -> Check everything you need except [bot], [optional], [experimental]
+* Automods -> PoeSmoother -> Check everything you need except
 
-* Press modify, wait for script to finish (~10 minutes with SSD)
+* Press modify (you dont need to wait, every action is added to queue. DONT click twice)
 
-* Press insert button (it will replace 2 shadow and 1 regular fog shader, 2 delirium fog, 2 delve lighting files), wait, it should say "X file inserted"
+* Press insert button (you dont need to wait, every action is added to queue. DONT click twice)
 
-P.S. You still need SSD to play poe
+* Now wait for ~10 minutes (SSD) / ~9000 minutes (HDD)
 
-# Support
+# Donate
 
 If you like what you see you can support me <3
 
