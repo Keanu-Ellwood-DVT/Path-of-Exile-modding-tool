@@ -20,6 +20,8 @@ Or this (everything ON). This tool is very flexiable
 
 * [Download script](https://github.com/vadash/Path-of-Exile-modding-tool/archive/master.zip) Unpack somewhere and open script folder (Path-of-Exile-modding-tool-master)
 
+* [Bots only] Copy `Path-of-Exile-modding-tool\optional\blackscreen` content to `Path-of-Exile-modding-tool\extracted`. Yes to override
+
 * Run **Start.cmd** 
 
 Provide path to ggpk (example, C:\games\poe\Content.ggpk)
