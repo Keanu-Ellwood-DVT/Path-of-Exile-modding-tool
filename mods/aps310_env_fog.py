@@ -16,4 +16,5 @@ masterfilter_exclude=[
 def execute(filename, backupfiledata, modifyggpk):
     filedata, encoding, bom = modifyggpk.stringcleanup(backupfiledata, "UTF-16-LE")
     filedatamod=re.sub(r'"exp_fog_is_enabled": true,', r'"exp_fog_is_enabled": false,', filedata)
+    filedatamod=re.sub(r'"player_environment_ao": "Metadata/Effects/weather_attachments/rain/rain.ao",', r'"player_environment_ao": "",', filedatamod)
     return filedatamod, encoding, bom
