@@ -22,13 +22,15 @@ Or this (everything ON). This tool is very flexiable
 
 * [Bots only] Copy `Path-of-Exile-modding-tool\optional\blackscreen` content to `Path-of-Exile-modding-tool\extracted`. Yes to override
 
-* Run **Start.cmd** 
+* [Anti delerium fock haters] Copy `Path-of-Exile-modding-tool\optional\null delirium fog` content to `Path-of-Exile-modding-tool\extracted`. Yes to override
 
-Provide path to ggpk (example, C:\games\poe\Content.ggpk)
+* Run `Start.cmd` 
+
+* Provide path to ggpk (example, C:\games\poe\Content.ggpk)
 
 ![install](https://i.imgur.com/QFt4iM1.png)
 
-Press Scan (you dont need to wait, every action is added to queue. DONT click twice)
+* Press Scan (you dont need to wait, every action is added to queue. DONT click twice)
 
 * Automods -> PoeSmoother -> Check everything you need except
 
