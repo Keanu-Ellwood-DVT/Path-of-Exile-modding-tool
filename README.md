@@ -14,6 +14,8 @@ Or this (everything ON). This tool is very flexiable
 
 [Гайд для 2HEAD на русском](https://youtu.be/JfGD9HfGwp4)
 
+## Prepare phase (do it once)
+
 * Go to https://www.python.org/downloads/windows/ -> Click Latest Python 3 Release -> Scroll and find "Windows x86-64 executable installer" -> Start installer -> **Check add to PATH**
 
 ![install](https://i.imgur.com/WGL3CSw.png)
@@ -31,6 +33,10 @@ Or this (everything ON). This tool is very flexiable
 ![install](https://i.imgur.com/QFt4iM1.png)
 
 * Press Scan (you dont need to wait, every action is added to queue. DONT click twice)
+
+## After every patch
+
+* Run `Start.cmd` 
 
 * Automods -> PoeSmoother -> Check everything you need except
 
