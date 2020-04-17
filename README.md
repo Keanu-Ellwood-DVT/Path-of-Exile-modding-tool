@@ -14,29 +14,43 @@ Or this (everything ON). This tool is very flexiable
 
 [Гайд для 2HEAD на русском](https://youtu.be/JfGD9HfGwp4)
 
+## Prepare phase (do it once)
+
 * Go to https://www.python.org/downloads/windows/ -> Click Latest Python 3 Release -> Scroll and find "Windows x86-64 executable installer" -> Start installer -> **Check add to PATH**
 
 ![install](https://i.imgur.com/WGL3CSw.png)
 
 * [Download script](https://github.com/vadash/Path-of-Exile-modding-tool/archive/master.zip) Unpack somewhere and open script folder (Path-of-Exile-modding-tool-master)
 
-* Run **Start.cmd** 
+* [Bots only] Copy `Path-of-Exile-modding-tool\optional\blackscreen` content to `Path-of-Exile-modding-tool\extracted`. Yes to override
 
-Provide path to ggpk (example, C:\games\poe\Content.ggpk)
+Correct path will be `Path-of-Exile-modding-tool\extracted\Shaders\Renderer\Fog.ffx` for example. This will reduce gpu usage on vmware from 60 (100% spikes, 1sec lags) to 15% and no spikes 
+
+* [Anti delerium fock haters] Copy `Path-of-Exile-modding-tool\optional\null delirium fog` content to `Path-of-Exile-modding-tool\extracted`. Yes to override
+
+* Run `Start.cmd` 
+
+* Provide path to ggpk (example, C:\games\poe\Content.ggpk)
 
 ![install](https://i.imgur.com/QFt4iM1.png)
 
-Press Scan and wait
+* Press Scan -> Wait for it to finish (Scan button is not red) -> Close tool
 
-* Automods -> PoeSmoother -> Check everything you need except [bot], [optional], [experimental]
+## After every patch
 
-* Press modify, wait for script to finish (~10 minutes with SSD)
+* Update Poe -> Close game
 
-* Press insert button (it will replace 2 shadow and 1 regular fog shader, 2 delirium fog, 2 delve lighting files), wait, it should say "X file inserted"
+* Run `Start.cmd` 
 
-P.S. You still need SSD to play poe
+* Automods -> PoeSmoother -> Tick everything you need
 
-# Support
+* Press modify (you dont need to wait, every action is added to queue. DONT click twice)
+
+* Press insert button (you dont need to wait, every action is added to queue. DONT click twice)
+
+* Now wait for ~10 minutes (SSD) / ~9000 minutes (HDD) until red background is gone
+
+# Donate
 
 If you like what you see you can support me <3
 
