@@ -36,6 +36,8 @@ Or this (everything ON). This tool is very flexiable
 
 ## After every patch
 
+* Update Poe -> Close game
+
 * Run `Start.cmd` 
 
 * Automods -> PoeSmoother -> Check everything you need except
