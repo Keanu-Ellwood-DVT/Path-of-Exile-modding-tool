@@ -24,6 +24,8 @@ Or this (everything ON). This tool is very flexiable
 
 * [Bots only] Copy `Path-of-Exile-modding-tool\optional\blackscreen` content to `Path-of-Exile-modding-tool\extracted`. Yes to override
 
+Correct path will be `Path-of-Exile-modding-tool\extracted\Shaders\Renderer\Fog.ffx` for example. This will reduce gpu usage on vmware from 60 (100% spikes, 1sec lags) to 15% and no spikes 
+
 * [Anti delerium fock haters] Copy `Path-of-Exile-modding-tool\optional\null delirium fog` content to `Path-of-Exile-modding-tool\extracted`. Yes to override
 
 * Run `Start.cmd` 
