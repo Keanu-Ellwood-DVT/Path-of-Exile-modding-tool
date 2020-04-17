@@ -32,7 +32,7 @@ Or this (everything ON). This tool is very flexiable
 
 ![install](https://i.imgur.com/QFt4iM1.png)
 
-* Press Scan (you dont need to wait, every action is added to queue. DONT click twice)
+* Press Scan. Wait for it to finish (check red text status). Close tool
 
 ## After every patch
 
