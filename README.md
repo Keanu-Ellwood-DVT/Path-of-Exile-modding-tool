@@ -40,13 +40,13 @@ Or this (everything ON). This tool is very flexiable
 
 * Run `Start.cmd` 
 
-* Automods -> PoeSmoother -> Check everything you need except
+* Automods -> PoeSmoother -> Tick everything you need
 
 * Press modify (you dont need to wait, every action is added to queue. DONT click twice)
 
 * Press insert button (you dont need to wait, every action is added to queue. DONT click twice)
 
-* Now wait for ~10 minutes (SSD) / ~9000 minutes (HDD)
+* Now wait for ~10 minutes (SSD) / ~9000 minutes (HDD) until red background is gone
 
 # Donate
 
