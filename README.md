@@ -34,7 +34,7 @@ Press Scan (you dont need to wait, every action is added to queue. DONT click tw
 
 * Press modify (you dont need to wait, every action is added to queue. DONT click twice)
 
-* Press insert button (you dont need to wait, every action is added to queue. DONT click twice)
+* Press insert button
 
 * Now wait for ~10 minutes (SSD) / ~9000 minutes (HDD)
 
