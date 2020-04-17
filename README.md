@@ -32,7 +32,7 @@ Or this (everything ON). This tool is very flexiable
 
 ![install](https://i.imgur.com/QFt4iM1.png)
 
-* Press Scan. Wait for it to finish (check red text status). Close tool
+* Press Scan -> Wait for it to finish (Scan button is not red) -> Close tool
 
 ## After every patch
 
