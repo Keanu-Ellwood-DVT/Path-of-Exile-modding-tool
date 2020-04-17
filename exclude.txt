@@ -15,3 +15,5 @@ Conduit_Sigil
 League_Affliction/fogAttachment
 Bearer
 Volatile
+DeathNova
+ProximityShield

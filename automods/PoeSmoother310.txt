@@ -51,23 +51,23 @@ execute "aps310_mat"
 
 title "[Optional] Remove AttachedAnimatedObject (.ao)"
 restriction "\.ao$"
-execute "ao"
+execute "aps310_ao"
 
 title "[Optional] Remove Decals grass plants slime gore (.atlas)" 
 restriction "\.atlas$"
-execute "atlas"
+execute "aps310_atlas"
 
 title "[Optional] Remove Rooms Decals (.arm)"
 restriction "\.arm$"
-execute "arm"
+execute "aps310_arm"
 
 title "[Optional] Remove Terrain Decals 1/2 (.dlp)"
 restriction "\.dlp$"
-execute "dlp"
+execute "aps310_dlp"
 
 title "[Optional] Remove Terrain Decals 2/2 (.mtd)"
 restriction "\.mtd$"
-execute "mtd"
+execute "aps310_mtd"
 
 title "[Bot] +++fps Zero (.env)"
 restriction "\.env$"
@@ -88,4 +88,4 @@ execute "aps310_otc"
 
 title "[Bot] +fps Remove Texture materials (.mat)"
 restriction "/Art/Textures/.*\.mat$"
-execute "aps310_mat"
+execute "zero_mat"
