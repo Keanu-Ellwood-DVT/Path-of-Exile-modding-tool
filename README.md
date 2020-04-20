@@ -16,7 +16,7 @@ Or this (everything ON). This tool is very flexiable
 
 ## Prepare phase (do it once)
 
-* Go to https://www.python.org/downloads/windows/ -> Click Latest Python 3 Release -> Scroll and find "Windows x86-64 executable installer" -> Start installer -> **Check add to PATH**
+* Download https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe -> **Check add to PATH**
 
 ![install](https://i.imgur.com/WGL3CSw.png)
 
