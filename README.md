@@ -26,7 +26,11 @@ Or this (everything ON). This tool is very flexiable
 
 Correct path will be `Path-of-Exile-modding-tool\extracted\Shaders\Renderer\Fog.ffx` for example. This will reduce gpu usage on vmware from 60 (100% spikes, 1sec lags) to 15% and no spikes 
 
-* [Anti delerium fock haters] Copy `Path-of-Exile-modding-tool\optional\null delirium fog` content to `Path-of-Exile-modding-tool\extracted`. Yes to override
+* [If you want to remove delirium fog] 
+
+Copy `Path-of-Exile-modding-tool\optional\null delirium fog` content to `Path-of-Exile-modding-tool\extracted`
+
+Edit "exclude" file, delete "League_Affliction/fogAttachment" line, save
 
 * Run `Start.cmd` 
 
