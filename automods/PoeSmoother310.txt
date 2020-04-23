@@ -24,11 +24,6 @@ title "[Stable] +fps Remove dead bodies (.ot)"
 restriction "^\./Metadata/Monsters/Monster\.ot$"
 execute "aps310_ot"
 
-title "[Stable] +fps Remove Particles materials (.mat)"
-exclude "portal"
-restriction "/Art/Particles/.*\.mat$"
-execute "aps310_mat"
-
 title "[Potato PC] Reduce textures (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
 exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
@@ -43,6 +38,11 @@ restriction "/Art/Textures/Monsters/.*\.dds$"
 restriction "/Art/Textures/NPC/.*\.dds$"
 restriction "/Art/Textures/Pet/.*\.dds$"
 execute "aps310_dds"
+
+title "[Optional] +fps Remove Particles materials (may hide some monsters) (.mat)"
+exclude "portal"
+restriction "/Art/Particles/.*\.mat$"
+execute "aps310_mat"
 
 title "[Optional] ++fps Remove Items on ground and character (.mat)"
 exclude "portal"
