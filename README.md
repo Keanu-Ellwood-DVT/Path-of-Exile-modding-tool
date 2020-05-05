@@ -4,7 +4,7 @@ You can make this (stable + optional + potato)
 
 ![preview1](https://i.imgur.com/dbS7kl9.jpg)
 
-Or this (everything ON). This tool is very flexiable
+Or this (everything ON). This tool is very flexible
 
 ![preview2](https://i.imgur.com/zNu2tDp.png)
 
