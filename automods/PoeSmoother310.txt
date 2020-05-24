@@ -16,6 +16,10 @@ title "[Stable] +fps Remove shadows (.env)"
 restriction "\.env$"
 execute "aps310_env_shadows"
 
+title "[Stable] +fps Add lighting (.env)"
+restriction "\.env$"
+execute "aps310_env_light"
+
 title "[Stable] ++fps Zero particles (.pet)"
 restriction "\.pet$"
 execute "aps310_pet"
