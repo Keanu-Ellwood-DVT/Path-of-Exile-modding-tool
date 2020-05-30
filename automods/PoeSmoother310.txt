@@ -1,34 +1,34 @@
 name "PoeSmoother"
 
-title "[Stable] +++fps Remove sounds and skin meshes (.aoc)"
+title "[Stable] Remove monster sounds (.aoc)"
 restriction "\.aoc$"
 execute "aps310_aoc"
 
-title "[Stable] ++fps Zero effects (.epk)"
+title "[Stable] Zero skill effects (.epk)"
 restriction "\.epk$"
 execute "aps310_epk"
 
-title "[Stable] fps Remove fog (.env)"
+title "[Stable] Disable fog (.env)"
 restriction "\.env$"
 execute "aps310_env_fog"
 
-title "[Stable] +fps Remove shadows (.env)"
+title "[Stable] Disable shadows (.env)"
 restriction "\.env$"
 execute "aps310_env_shadows"
 
-title "[Stable] +fps Add lighting (.env)"
+title "[Stable] Uniform lighting on all locations (.env)"
 restriction "\.env$"
 execute "aps310_env_light"
 
-title "[Stable] ++fps Zero particles (.pet)"
+title "[Stable] Zero particles effects (.pet)"
 restriction "\.pet$"
 execute "aps310_pet"
 
-title "[Stable] +fps Remove dead bodies (.ot)"
+title "[Stable] Remove dead bodies (.ot)"
 restriction "^\./Metadata/Monsters/Monster\.ot$"
 execute "aps310_ot"
 
-title "[Potato PC] Reduce textures (.dds)"
+title "[Potato] Repack textures to save VRAM (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
 exclude "/Art/Textures/Interface/2D/.*\.dds$"             # interface do not resize
 exclude "/Art/2DArt/.*\.dds$"
@@ -43,44 +43,44 @@ restriction "/Art/Textures/NPC/.*\.dds$"
 restriction "/Art/Textures/Pet/.*\.dds$"
 execute "aps310_dds"
 
-title "[Optional] +fps Remove Particles materials (may hide some monsters) (.mat)"
+title "[Optional] Remove particles materials (can hide monsters) (.mat)"
 exclude "portal"
 restriction "/Art/Particles/.*\.mat$"
 execute "aps310_mat"
 
-title "[Optional] ++fps Remove Items on ground and character (.mat)"
+title "[Optional] ++fps Remove items on ground (and character) (.mat)"
 exclude "portal"
 restriction "/Art/Textures/Items/.*\.mat$"
 execute "aps310_mat"
 
-title "[Optional] Remove AttachedAnimatedObject (.ao)"
+title "[Optional] Null .ao"
 restriction "\.ao$"
 execute "aps310_ao"
 
-title "[Optional] Remove Decals grass plants slime gore (.atlas)" 
+title "[Optional] Null .atlas" 
 restriction "\.atlas$"
 execute "aps310_atlas"
 
-title "[Optional] Remove Rooms Decals (.arm)"
+title "[Optional] Null .arm"
 restriction "\.arm$"
 execute "aps310_arm"
 
-title "[Optional] Remove Terrain Decals 1/2 (.dlp)"
+title "[Optional] Null .dlp"
 restriction "\.dlp$"
 execute "aps310_dlp"
 
-title "[Optional] Remove Terrain Decals 2/2 (.mtd)"
+title "[Optional] Null .mtd"
 restriction "\.mtd$"
 execute "aps310_mtd"
 
-title "[Bot] +++fps Zero (.env)"
-restriction "\.env$"
-execute "zero_env"
-
-title "[Bot] +fps Remove MTX materials (.mat)"
+title "[Optional] Remove all MTX materials (.mat)"
 exclude "portal"
 restriction "/Art/Microtransactions/.*\.mat$"
 execute "aps310_mat"
+
+title "[Bot] Null env files (.env)"
+restriction "\.env$"
+execute "zero_env"
 
 title "[Bot] Remove all players"
 restriction "^\./Metadata/Characters/Character.otc$"
@@ -90,6 +90,6 @@ title "[Bot] Remove all monsters"
 restriction "^\./Metadata/Monsters/Monster.otc$"
 execute "aps310_otc"
 
-title "[Bot] +fps Remove Texture materials (.mat)"
+title "[Bot] Remove texture materials (.mat)"
 restriction "/Art/Textures/.*\.mat$"
 execute "zero_mat"
