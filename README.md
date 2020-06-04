@@ -12,7 +12,7 @@ Or this (BotSmoother preset)
 
 ![preview2](https://i.imgur.com/zNu2tDp.png)
 
-![toolOptions](https://i.imgur.com/mcv4kE3.png)
+![toolOptions](https://cdn.discordapp.com/attachments/672362352804495361/718074558233706536/unknown.png)
 
 # How to use
 
