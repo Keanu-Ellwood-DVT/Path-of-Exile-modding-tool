@@ -1,4 +1,4 @@
-name "PoeSmoother"
+name "BotSmoother"
 
 title "Zero particles effects (.pet)"
 restriction "\.pet$"
@@ -11,18 +11,6 @@ execute "aps310_aoc"
 title "Zero skill effects (.epk)"
 restriction "\.epk$"
 execute "aps310_epk"
-
-title "Disable fog (.env)"
-restriction "\.env$"
-execute "aps310_env_fog"
-
-title "Disable shadows (.env)"
-restriction "\.env$"
-execute "aps310_env_shadows"
-
-title "Uniform lighting on all locations (.env)"
-restriction "\.env$"
-execute "aps310_env_light"
 
 title "Remove dead bodies (.ot)"
 restriction "^\./Metadata/Monsters/Monster\.ot$"
@@ -43,17 +31,42 @@ restriction "/Art/Textures/NPC/.*\.dds$"
 restriction "/Art/Textures/Pet/.*\.dds$"
 execute "aps310_dds"
 
-title "[Optional] Remove particles materials (and few monsters ;) (.mat)"
-exclude "portal"
-restriction "/Art/Particles/.*\.mat$"
-execute "aps310_mat"
+title "[Optional] Null .ao"
+restriction "\.ao$"
+execute "aps310_ao"
 
-title "[Optional] Remove items on ground (and character ;) (.mat)"
-exclude "portal"
-restriction "/Art/Textures/Items/.*\.mat$"
-execute "aps310_mat"
+title "[Optional] Null .atlas" 
+restriction "\.atlas$"
+execute "aps310_atlas"
 
-title "[Optional] Remove all MTX materials (.mat)"
+title "[Optional] Null .arm"
+restriction "\.arm$"
+execute "aps310_arm"
+
+title "[Optional] Null .dlp"
+restriction "\.dlp$"
+execute "aps310_dlp"
+
+title "[Optional] Null .mtd"
+restriction "\.mtd$"
+execute "aps310_mtd"
+
+title "[Bot] Null env files (.env)"
+restriction "\.env$"
+execute "zero_env"
+
+title "[Bot] Remove all players"
+restriction "^\./Metadata/Characters/Character.otc$"
+execute "aps310_otc"
+
+title "[Bot] Remove all monsters"
+restriction "^\./Metadata/Monsters/Monster.otc$"
+execute "aps310_otc"
+
+title "[Bot] Remove ALL materials (.mat)"
 exclude "portal"
+restriction "/Art/Textures/.*\.mat$"
 restriction "/Art/Microtransactions/.*\.mat$"
-execute "aps310_mat"
+restriction "/Art/Textures/Items/.*\.mat$"
+restriction "/Art/Particles/.*\.mat$"
+execute "zero_mat"
