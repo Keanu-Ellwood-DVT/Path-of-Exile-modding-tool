@@ -1,4 +1,6 @@
-![ram](https://cdn.discordapp.com/attachments/689969482520723464/695970176046202920/unknown.png)
+# Disclaimer
+
+If you use GGPK to modify the game files, you are responsible for the consequences and risks. So far they didnt ban anyone for it in last 3 years.
 
 You can make this (stable + optional + potato)
 
