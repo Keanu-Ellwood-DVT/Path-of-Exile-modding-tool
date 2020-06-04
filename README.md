@@ -2,11 +2,13 @@
 
 If you use GGPK to modify the game files, you are responsible for the consequences and risks. So far they didnt ban anyone for it in last 3 years.
 
-You can make this (stable + optional + potato)
+# Preview
+
+You can make this (PoeSmoother preset)
 
 ![preview1](https://i.imgur.com/dbS7kl9.jpg)
 
-Or this (everything ON). This tool is very flexible
+Or this (BotSmoother preset)
 
 ![preview2](https://i.imgur.com/zNu2tDp.png)
 
