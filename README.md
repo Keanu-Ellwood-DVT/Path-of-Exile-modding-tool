@@ -20,7 +20,7 @@ Or this (BotSmoother preset)
 
 ## Prepare phase (do it once)
 
-* Download https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe -> **Check add to PATH**
+* [Download python](https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe) -> **Check add to PATH**
 
 ![install](https://i.imgur.com/WGL3CSw.png)
 
