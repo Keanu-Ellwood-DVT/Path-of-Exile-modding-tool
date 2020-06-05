@@ -54,7 +54,7 @@ If you use GGPK to modify the game files, you are responsible for the consequenc
 
 * Now wait for ~10 minutes (SSD) / ~9000 minutes (HDD) until red background is gone
 
-Skill and item MTX replacements: apply them 1 by 1 and test in muliple maps before applying another one! [Report crashes here](https://github.com/vadash/Path-of-Exile-modding-tool/issues) 
+Skill and item MTX replacements: apply them 1 by 1 and test in multiple maps before applying another one! [Report crashes here](https://github.com/vadash/Path-of-Exile-modding-tool/issues) 
 
 # Donate
 
