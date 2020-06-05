@@ -1,7 +1,3 @@
-# Disclaimer
-
-If you use GGPK to modify the game files, you are responsible for the consequences and risks. So far they didnt ban anyone for it ALONE in last 3 years. It was always + heavy RMT / using poe hud without limited user / caught on stream / botting + vmware / botting + many accs on same IP etc.
-
 # Preview
 
 You can make this (PoeSmoother preset)
@@ -13,6 +9,10 @@ Or this (BotSmoother preset)
 ![preview2](https://i.imgur.com/zNu2tDp.png)
 
 ![toolOptions](https://cdn.discordapp.com/attachments/672362352804495361/718074558233706536/unknown.png)
+
+# Disclaimer
+
+If you use GGPK to modify the game files, you are responsible for the consequences and risks. So far they didnt ban anyone for it ALONE in last 3 years. It was always + heavy RMT / using poe hud without limited user / caught on stream / botting + vmware / botting + many accs on same IP etc.
 
 # How to use
 
