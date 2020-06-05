@@ -58,9 +58,7 @@ Skill and item MTX replacements: apply them 1 by 1 and test in multiple maps bef
 
 # Donate
 
-If you like what you see you can support me <3
-
-https://www.paypal.me/vadash
+[If you like what you see you can support me <3](https://www.paypal.me/vadash)
 
 # Credits
 
