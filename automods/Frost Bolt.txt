@@ -1,4 +1,4 @@
-name "Frostbolt"
+name "Frost Bolt"
 
 title "Shaper Frostbolt by Nagax9"
 restriction "/Metadata/Effects/Spells/frost_bolt/projectile.ao$"

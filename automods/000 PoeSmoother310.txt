@@ -1,6 +1,6 @@
 name "000 PoeSmoother"
 
-title "Zero particle effects (.pet)"
+title "Remove NON MTX particle effects (.pet)"
 exclude "/Microtransactions/.*"
 restriction "\.pet$"
 execute "aps310_pet"
@@ -10,7 +10,7 @@ exclude "/Microtransactions/.*"
 restriction "\.aoc$"
 execute "aps310_aoc"
 
-title "Zero effect package (.epk)"
+title "Remove NON MTX effect package (.epk)"
 exclude "/Microtransactions/.*"
 restriction "\.epk$"
 execute "aps310_epk"
