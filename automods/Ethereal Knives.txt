@@ -1,0 +1,13 @@
+name "Ethereal Knives"
+
+title "EK Star by xvcnmd"
+
+restriction "/Metadata/Effects/Spells/bladeburst/ethereal_knife_proj.ao$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/ninja_shotgun/stars/proj_new.ao$"
+restriction "/Metadata/Effects/Spells/bladeburst/ethereal_knife_proj.aoc$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/ninja_shotgun/stars/proj_new.aoc$"
+restriction "/Metadata/Effects/Spells/bladeburst/ethereal_knife_stuck.ao$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/ninja_shotgun/stars/proj_stuck.ao$"
+restriction "/Metadata/Effects/Spells/bladeburst/black/black_knife_stuck.aoc$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/ninja_shotgun/stars/proj_stuck.aoc$"
+

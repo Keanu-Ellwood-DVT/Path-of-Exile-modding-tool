@@ -1,0 +1,12 @@
+name "Frostbolt"
+
+title "Shaper Frostbolt by Nagax9"
+restriction "/Metadata/Effects/Spells/frost_bolt/projectile.ao$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/frost_bolt/projectile.ao$"
+restriction "/Metadata/Effects/Spells/frost_bolt/projectile.aoc$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/frost_bolt/projectile.aoc$"
+restriction "/Metadata/Effects/Spells/frost_bolt/projectile_hit.ao$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/frost_bolt/projectile_hit.ao$"
+restriction "/Metadata/Effects/Spells/frost_bolt/projectile_hit.aoc$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/frost_bolt/projectile_hit.aoc$"
+

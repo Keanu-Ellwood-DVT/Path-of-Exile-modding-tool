@@ -1,0 +1,22 @@
+name "Movement"
+
+title "Innocence Lightning Warp by Nagax9"
+restriction "/Metadata/Effects/Spells/lightning_warp/up.ao$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/lightning_warp/innocence/explode_UP.ao$"
+restriction "/Metadata/Effects/Spells/lightning_warp/up.aoc$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/lightning_warp/innocence/explode_UP.aoc$"
+restriction "/Metadata/Effects/Spells/lightning_warp/down.ao$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/lightning_warp/innocence/explode_DOWN.ao$"
+restriction "/Metadata/Effects/Spells/lightning_warp/down.aoc$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/lightning_warp/innocence/explode_DOWN.aoc$"
+restriction "/Metadata/Effects/Spells/lightning_warp/rig.ao$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/lightning_warp/innocence/target.ao$"
+restriction "/Metadata/Effects/Spells/lightning_warp/rig.aoc$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/lightning_warp/innocence/target.aoc$"
+
+title "Corsair Flame Dash partial by Nagax9"
+restriction "/Metadata/Effects/Spells/flame_dash/flame_dash.ao$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/flame_dash/corsair/flamedash_corsair.ao$"
+restriction "/Metadata/Effects/Spells/flame_dash/flame_dash.aoc$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/flame_dash/corsair/flamedash_corsair.aoc$"
+

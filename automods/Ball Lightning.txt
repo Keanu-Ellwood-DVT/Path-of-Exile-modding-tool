@@ -1,0 +1,12 @@
+name "Ball Lightning"
+
+title "Celestial Ball Lightning by Anasterian"
+restriction "./Metadata/Effects/Spells/lightning_orb/lightning_bolt.ao$"
+replacewith "./Metadata/Effects/Microtransactions/Spells/ball_lightning/celestial/celestial_lightning_bolt.ao$"
+restriction "./Metadata/Effects/Spells/lightning_orb/lightning_bolt.aoc$"
+replacewith "./Metadata/Effects/Microtransactions/Spells/ball_lightning/celestial/celestial_lightning_bolt.aoc$"
+restriction "./Metadata/Effects/Spells/lightning_orb/lightning_orb_orb.ao$"
+replacewith "./Metadata/Effects/Microtransactions/Spells/ball_lightning/celestial/celestial_lightning_orb.ao$"
+restriction "./Metadata/Effects/Spells/lightning_orb/lightning_orb_orb.aoc$"
+replacewith "./Metadata/Effects/Microtransactions/Spells/ball_lightning/celestial/celestial_lightning_orb.aoc$"
+

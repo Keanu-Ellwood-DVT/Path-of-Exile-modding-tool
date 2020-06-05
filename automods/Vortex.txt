@@ -1,0 +1,8 @@
+name "Vortex"
+
+title "Black Hole Vortex by Nagax9"
+restriction "/Metadata/Effects/Spells/frost_bolt/sml_maelstrom.ao$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/frost_bolt/maelstrom.ao$"
+restriction "/Metadata/Effects/Spells/frost_bolt/sml_maelstrom.aoc$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/frost_bolt/maelstrom.aoc$"
+

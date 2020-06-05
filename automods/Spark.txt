@@ -1,0 +1,11 @@
+name "Spark"
+
+title "Spider Spark partial by xvcnmd"
+restriction "/Metadata/Effects/Spells/electrical_surge/rig.ao$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/spark/sparkspider/spark_spider.ao$"
+restriction "/Metadata/Effects/Spells/electrical_surge/rig.aoc$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/spark/sparkspider/spark_spider.aoc$"
+restriction "/Metadata/Effects/Spells/electrical_surge/rig.ao$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/spark/sparkspider/spark_spider2.ao$"
+restriction "/Metadata/Effects/Spells/electrical_surge/rig.aoc$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/spark/sparkspider/spark_spider2.aoc$"

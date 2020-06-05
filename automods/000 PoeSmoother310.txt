@@ -1,14 +1,17 @@
-name "PoeSmoother"
+name "000 PoeSmoother"
 
-title "Zero particles effects (.pet)"
+title "Zero particle effects (.pet)"
+exclude "/Microtransactions/.*"
 restriction "\.pet$"
 execute "aps310_pet"
 
-title "Remove monster effects, particles, sounds (.aoc)"
+title "Remove NON MTX monster effects, particles, sounds (.aoc)"
+exclude "/Microtransactions/.*"
 restriction "\.aoc$"
 execute "aps310_aoc"
 
-title "Zero skill effects (.epk)"
+title "Zero effect package (.epk)"
+exclude "/Microtransactions/.*"
 restriction "\.epk$"
 execute "aps310_epk"
 
@@ -43,7 +46,7 @@ restriction "/Art/Textures/NPC/.*\.dds$"
 restriction "/Art/Textures/Pet/.*\.dds$"
 execute "aps310_dds"
 
-title "[Optional] Remove particles materials (and few monsters ;) (.mat)"
+title "[Optional] Remove particles materials (and some monsters ;) (.mat)"
 exclude "portal"
 restriction "/Art/Particles/.*\.mat$"
 execute "aps310_mat"

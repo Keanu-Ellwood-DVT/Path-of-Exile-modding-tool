@@ -1,0 +1,18 @@
+name "Tornado Shot"
+
+title "Ebony TornadoShot by Robodance"
+restriction "/Metadata/Effects/Spells/tornado_shot/second_arrow.ao"
+replacewith "./Metadata/Effects/Microtransactions/Spells/tornado_shot/second_arrow.ao"
+restriction "/Metadata/Effects/Spells/tornado_shot/second_arrow.aoc"
+replacewith "./Metadata/Effects/Microtransactions/Spells/tornado_shot/second_arrow.aoc"
+restriction "/Metadata/Effects/Spells/tornado_shot/tornadoarrow.ao"
+replacewith "./Metadata/Effects/Microtransactions/Spells/tornado_shot/tornadoarrow.ao"
+restriction "/Metadata/Effects/Spells/tornado_shot/tornadoarrow.aoc"
+replacewith "./Metadata/Effects/Microtransactions/Spells/tornado_shot/tornadoarrow.aoc"
+restriction "/Metadata/Effects/Spells/tornado_shot/trailtornado.ao"
+replacewith "./Metadata/Effects/Microtransactions/Spells/tornado_shot/trailtornado.ao"
+restriction "/Metadata/Effects/Spells/tornado_shot/trailtornado.aoc"
+replacewith "./Metadata/Effects/Microtransactions/Spells/tornado_shot/trailtornado.aoc"
+restriction "/Metadata/Particles/tornado_shot/mid.pet"
+replacewith "/Metadata/Effects/Microtransactions/Spells/tornado_shot/mid.pet"
+

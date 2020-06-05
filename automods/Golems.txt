@@ -1,0 +1,17 @@
+name "Golems"
+
+title "Lightning golem stormcaller by Nagax9"
+restriction "/Metadata/Monsters/LightningGolem/LightningGolem.ao$"
+replacewith "/Metadata/Monsters/LightningGolem/LightningGolemStormcaller.ao$"
+restriction "/Metadata/Monsters/LightningGolem/LightningGolem.aoc$"
+replacewith "/Metadata/Monsters/LightningGolem/LightningGolemStormcaller.aoc$"
+restriction "/Metadata/Monsters/LightningGolem/LightningGolemSummoned.act$"
+replacewith "/Metadata/Monsters/LightningGolem/LightningGolemStormcallerSummoned.act$"
+
+title "Ice Golem Arctic by calebrivers098"
+restriction "Metadata/Monsters/IceElemental/IceElementalSummoned.ao$"
+replacewith "Metadata/Monsters/IceElemental/IceElementalArctic.ao$"
+restriction "Metadata/Monsters/IceElemental/IceElementalSummoned.aoc$"
+replacewith "Metadata/Monsters/IceElemental/IceElementalArctic.aoc$"
+restriction "./Metadata/Monsters/IceElemental/IceElementalSummoned.act$"
+replacewith "Metadata/Monsters/IceElemental/IceElementalArctic.act$"

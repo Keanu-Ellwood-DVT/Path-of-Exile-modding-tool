@@ -1,0 +1,16 @@
+﻿name "Divine Ire"
+
+title "Automaton Divine Ire by koala1234"
+restriction "./Metadata/Effects/Spells/divine_tempest/beam_cannon.ao"
+replacewith "./Metadata/Effects/Microtransactions/Spells/divine_ire/automaton/beam_cannon.ao"
+restriction "./Metadata/Effects/Spells/divine_tempest/beam_cannon.aoc"
+replacewith "./Metadata/Effects/Microtransactions/Spells/divine_ire/automaton/beam_cannon.aoc"
+restriction "./Metadata/Effects/Spells/divine_tempest/beam_nova.ao"
+replacewith "./Metadata/Effects/Microtransactions/Spells/divine_ire/automaton/beam_nova.ao"
+restriction "./Metadata/Effects/Spells/divine_tempest/beam_nova.aoc"
+replacewith "./Metadata/Effects/Microtransactions/Spells/divine_ire/automaton/beam_nova.aoc"
+restriction "./Metadata/Effects/Spells/divine_tempest/Graphs/Saiyan.fxgraph"
+replacewith "./Metadata/Effects/Microtransactions/Spells/divine_ire/automaton/Graphs/AutomatonSaiyan.fxgraph"
+restriction "./Metadata/Effects/Spells/divine_tempest/superexile.epk"
+replacewith "./Metadata/Effects/Microtransactions/Spells/divine_ire/automaton/superexile.epk"
+
