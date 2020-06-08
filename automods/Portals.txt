@@ -10,3 +10,13 @@ replacewith "/Metadata/Effects/Microtransactions/Town_Portals/DragonPortal/rig_m
 restriction "/Metadata/Effects/Spells/portal/portal2Maproom.aoc$"
 replacewith "/Metadata/Effects/Microtransactions/Town_Portals/DragonPortal/rig_map.aoc$"
 
+title "Balefire portal by Chaka666"
+restriction "/Metadata/Effects/Spells/portal/portal2.ao$"
+replacewith "/Metadata/Effects/Microtransactions/Town_Portals/BalefirePortal/BalefirePortal.ao$"
+restriction "/Metadata/Effects/Spells/portal/portal2.aoc$"
+replacewith "/Metadata/Effects/Microtransactions/Town_Portals/BalefirePortal/BalefirePortal_map.aoc$"
+restriction "/Metadata/Effects/Spells/portal/portal2Maproom.ao$"
+replacewith "/Metadata/Effects/Microtransactions/Town_Portals/BalefirePortal/BalefirePortal_map.ao$"
+restriction "/Metadata/Effects/Spells/portal/portal2Maproom.aoc$"
+replacewith "/Metadata/Effects/Microtransactions/Town_Portals/BalefirePortal/BalefirePortal_map.aoc$"
+

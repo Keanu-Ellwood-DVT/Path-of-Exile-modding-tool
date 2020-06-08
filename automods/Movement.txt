@@ -14,9 +14,15 @@ replacewith "/Metadata/Effects/Microtransactions/Spells/lightning_warp/innocence
 restriction "/Metadata/Effects/Spells/lightning_warp/rig.aoc$"
 replacewith "/Metadata/Effects/Microtransactions/Spells/lightning_warp/innocence/target.aoc$"
 
-title "Corsair Flame Dash partial by Nagax9"
+title "Corsair Flame Dash by Nagax9"
 restriction "/Metadata/Effects/Spells/flame_dash/flame_dash.ao$"
 replacewith "/Metadata/Effects/Microtransactions/Spells/flame_dash/corsair/flamedash_corsair.ao$"
 restriction "/Metadata/Effects/Spells/flame_dash/flame_dash.aoc$"
 replacewith "/Metadata/Effects/Microtransactions/Spells/flame_dash/corsair/flamedash_corsair.aoc$"
+
+title "Dragon Flame Dash by Chaka666"
+restriction "/Metadata/Effects/Spells/flame_dash/flame_dash.ao$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/flame_dash/dragon.ao$"
+restriction "/Metadata/Effects/Spells/flame_dash/flame_dash.aoc$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/flame_dash/dragon.aoc$"
 

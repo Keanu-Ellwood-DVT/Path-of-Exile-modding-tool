@@ -1,7 +1,6 @@
 name "Ethereal Knives"
 
-title "EK Star by xvcnmd"
-
+title "EK ninja shotgun by xvcnmd"
 restriction "/Metadata/Effects/Spells/bladeburst/ethereal_knife_proj.ao$"
 replacewith "/Metadata/Effects/Microtransactions/Spells/ninja_shotgun/stars/proj_new.ao$"
 restriction "/Metadata/Effects/Spells/bladeburst/ethereal_knife_proj.aoc$"
@@ -11,3 +10,12 @@ replacewith "/Metadata/Effects/Microtransactions/Spells/ninja_shotgun/stars/proj
 restriction "/Metadata/Effects/Spells/bladeburst/black/black_knife_stuck.aoc$"
 replacewith "/Metadata/Effects/Microtransactions/Spells/ninja_shotgun/stars/proj_stuck.aoc$"
 
+title "EK Star Glass by Chaka666"
+restriction "/Metadata/Effects/Spells/bladeburst/ethereal_knife_proj.ao$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/ethereal_knives_glass/ethereal_knife_proj.ao$"
+restriction "/Metadata/Effects/Spells/bladeburst/ethereal_knife_proj.aoc$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/ethereal_knives_glass/ethereal_knife_proj.aoc$"
+restriction "/Metadata/Effects/Spells/bladeburst/ethereal_knife_stuck.ao$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/ethereal_knives_glass/ethereal_knife_stuck.ao$"
+restriction "/Metadata/Effects/Spells/bladeburst/black/black_knife_stuck.aoc$"
+replacewith "/Metadata/Effects/Microtransactions/Spells/ethereal_knives_glass/ethereal_knife_stuck.aoc$"
