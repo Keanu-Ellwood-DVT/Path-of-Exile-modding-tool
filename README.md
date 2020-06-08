@@ -1,7 +1,3 @@
-# Disclaimer
-
-If you use GGPK to modify the game files, you are responsible for the consequences and risks. So far they didnt ban anyone for it ALONE in last 3 years. It was always + heavy RMT / using poe hud without limited user / caught on stream / botting + vmware / botting + many accs on same IP etc.
-
 # Preview
 
 You can make this (PoeSmoother preset)
@@ -14,13 +10,17 @@ Or this (BotSmoother preset)
 
 ![toolOptions](https://cdn.discordapp.com/attachments/672362352804495361/718074558233706536/unknown.png)
 
+# Disclaimer
+
+If you use GGPK to modify the game files, you are responsible for the consequences and risks. So far they didnt ban anyone for it ALONE in last 3 years. It was always + heavy RMT / using poe hud without limited user / caught on stream / botting + vmware / botting + many accs on same IP etc.
+
 # How to use
 
 [Гайд для 2HEAD на русском](https://youtu.be/JfGD9HfGwp4)
 
 ## Prepare phase (do it once)
 
-* Download https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe -> **Check add to PATH**
+* [Download python](https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe) -> **Check add to PATH**
 
 ![install](https://i.imgur.com/WGL3CSw.png)
 
@@ -54,11 +54,11 @@ Or this (BotSmoother preset)
 
 * Now wait for ~10 minutes (SSD) / ~9000 minutes (HDD) until red background is gone
 
+Skill and item MTX replacements: apply them 1 by 1 and test in multiple maps before applying another one! [Report crashes here](https://github.com/vadash/Path-of-Exile-modding-tool/issues) 
+
 # Donate
 
-If you like what you see you can support me <3
-
-https://www.paypal.me/vadash
+[If you like what you see you can support me <3](https://www.paypal.me/vadash)
 
 # Credits
 
