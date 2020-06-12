@@ -1,16 +1,21 @@
 name "000 PoeSmoother"
 
-title "Remove NON MTX particle effects (.pet)"
+title "Remove non MTX particle effects (.pet)"
 exclude "/Microtransactions/.*"
 restriction "\.pet$"
 execute "aps310_pet"
 
-title "Remove NON MTX monster effects, particles, sounds (.aoc)"
+title "Remove non MTX monster sounds (.aoc)"
 exclude "/Microtransactions/.*"
 restriction "\.aoc$"
-execute "aps310_aoc"
+execute "aps310_aoc_sound"
 
-title "Remove NON MTX effect package (.epk)"
+title "Remove non MTX monster effects, particles (.aoc)"
+exclude "/Microtransactions/.*"
+restriction "\.aoc$"
+execute "aps310_aoc_other"
+
+title "Remove non MTX effect package (.epk)"
 exclude "/Microtransactions/.*"
 restriction "\.epk$"
 execute "aps310_epk"
