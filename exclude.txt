@@ -12,8 +12,7 @@ FrostFury
 Conduit_Sigil
 /League_Legion/RewardSystem/
 /atlasexiles/Orion
-League_Affliction/fogAttachment
+League_Affliction
 Bearer
-Volatile
-DeathNova
-ProximityShield
+./Metadata/Particles/.*totem
+./Metadata/Particles/.*aura
