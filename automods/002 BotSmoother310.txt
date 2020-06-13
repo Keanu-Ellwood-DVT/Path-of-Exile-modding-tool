@@ -1,4 +1,4 @@
-name "001 BotSmoother"
+name "002 BotSmoother"
 
 title "Zero particles effects (.pet)"
 restriction "\.pet$"
