@@ -14,8 +14,6 @@ condition=[
    "WindEvents",
    "AnimatedRender",
    "TrailsEffects",
-   "ScreenShake",
-   "SoundParams",
    "EffectPack",
    "BoneGroupTrail",
    ]

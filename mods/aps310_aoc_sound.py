@@ -9,6 +9,8 @@ masterfilter_exclude=[
 # we null this
 condition=[
    "SoundEvents",
+   "ScreenShake",
+   "SoundParams",
    ]
 
 def execute(filename, backupfiledata, modifyggpk):
