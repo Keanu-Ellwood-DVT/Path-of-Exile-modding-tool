@@ -4,9 +4,15 @@ title "Zero particles effects (.pet)"
 restriction "\.pet$"
 execute "aps310_pet"
 
-title "Remove monster effects, particles, sounds (.aoc)"
+title "Remove monster sounds (.aoc)"
+exclude "/Microtransactions/.*"
 restriction "\.aoc$"
-execute "aps310_aoc"
+execute "aps310_aoc_sound"
+
+title "Remove monster effects, particles (.aoc)"
+exclude "/Microtransactions/.*"
+restriction "\.aoc$"
+execute "aps310_aoc_other"
 
 title "Zero skill effects (.epk)"
 restriction "\.epk$"
