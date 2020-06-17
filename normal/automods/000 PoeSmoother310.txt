@@ -1,11 +1,11 @@
 name "000 PoeSmoother"
 
-title "Save only 1 spell emitter (.pet .trl)"
+title "Reduce spell effects without removing completely (.pet .trl)"
 restriction "\.pet$"
 restriction "\.trl$"
 execute "aps310_pet"
 
-title "Disable fog, shadows, rain. Uniform lighting (.env)"
+title "Disable fog, shadows, rain. Delve light hack for all lcoations (.env)"
 restriction "\.env$"
 execute "aps310_env"
 
@@ -13,20 +13,20 @@ title "Remove dead bodies (.ot)"
 restriction "^\./Metadata/Monsters/Monster\.ot$"
 execute "aps310_ot"
 
-title "Hide MTX (.mat)"
+title "Hide all MTX (.mat)"
 exclude "portal"
 restriction "/Art/Microtransactions/.*\.mat$"
 execute "aps310_hide_mat"
 
-title "[Optional] Remove monster sounds (.aoc)"
+title "Remove monster sounds (.aoc)"
 restriction "\.aoc$"
 execute "aps310_aoc_sound"
 
-title "[Optional] Remove monster effects, particles (.aoc)"
+title "Remove monster effects, particles (.aoc)"
 restriction "\.aoc$"
 execute "aps310_aoc_other"
 
-title "[Optional] Delete effects (.epk)"
+title "Remove all non aura effects from .epk"
 restriction "\.epk$"
 execute "aps310_epk"
 
