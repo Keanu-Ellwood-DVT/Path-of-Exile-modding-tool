@@ -1,24 +1,17 @@
 name "000 PoeSmoother"
 
-title "Remove non MTX particle effects (.pet)"
-exclude "/Microtransactions/.*"
+title "Save only 1 emitter (.pet .trl)"
 restriction "\.pet$"
+restriction "\.trl$"
 execute "aps310_pet"
 
 title "Remove monster sounds (.aoc)"
-exclude "/Microtransactions/.*"
 restriction "\.aoc$"
 execute "aps310_aoc_sound"
 
 title "Remove monster effects, particles (.aoc)"
-exclude "/Microtransactions/.*"
 restriction "\.aoc$"
 execute "aps310_aoc_other"
-
-title "Remove non MTX effect package (.epk)"
-exclude "/Microtransactions/.*"
-restriction "\.epk$"
-execute "aps310_epk"
 
 title "Disable fog, shadows. Uniform lighting (.env)"
 restriction "\.env$"
@@ -32,11 +25,6 @@ title "Hide MTX (.mat)"
 exclude "portal"
 restriction "/Art/Microtransactions/.*\.mat$"
 execute "aps310_hide_mat"
-
-title "Hide MTX (.mat)"
-exclude "portal"
-restriction "/Art/Microtransactions/.*\.mat$"
-execute "aps310_exp_mat"
 
 title "[Potato] Repack textures to save VRAM (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
@@ -52,3 +40,8 @@ restriction "/Art/Textures/Monsters/.*\.dds$"
 restriction "/Art/Textures/NPC/.*\.dds$"
 restriction "/Art/Textures/Pet/.*\.dds$"
 execute "aps310_dds"
+
+title "[Optional] Remove non MTX effect package (.epk)"
+exclude "/Microtransactions/.*"
+restriction "\.epk$"
+execute "aps310_epk"
