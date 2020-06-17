@@ -5,10 +5,6 @@ restriction "\.pet$"
 restriction "\.trl$"
 execute "aps310_pet"
 
-title "Remove monster sounds (.aoc)"
-restriction "\.aoc$"
-execute "aps310_aoc_sound"
-
 title "Disable fog, shadows, rain. Uniform lighting (.env)"
 restriction "\.env$"
 execute "aps310_env"
@@ -21,6 +17,18 @@ title "Hide MTX (.mat)"
 exclude "portal"
 restriction "/Art/Microtransactions/.*\.mat$"
 execute "aps310_hide_mat"
+
+title "[Optional] Remove monster sounds (.aoc)"
+restriction "\.aoc$"
+execute "aps310_aoc_sound"
+
+title "[Optional] Remove monster effects, particles (.aoc)"
+restriction "\.aoc$"
+execute "aps310_aoc_other"
+
+title "[Optional] Delete effects (.epk)"
+restriction "\.epk$"
+execute "aps310_epk"
 
 title "[Potato] Repack textures to save VRAM (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
@@ -37,6 +45,3 @@ restriction "/Art/Textures/NPC/.*\.dds$"
 restriction "/Art/Textures/Pet/.*\.dds$"
 execute "aps310_dds"
 
-title "[Optional] Remove monster effects, particles (.aoc)"
-restriction "\.aoc$"
-execute "aps310_aoc_other"
