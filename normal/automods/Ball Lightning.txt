@@ -10,3 +10,12 @@ replacewith "./Metadata/Effects/Microtransactions/Spells/ball_lightning/celestia
 restriction "./Metadata/Effects/Spells/lightning_orb/lightning_orb_orb.aoc$"
 replacewith "./Metadata/Effects/Microtransactions/Spells/ball_lightning/celestial/celestial_lightning_orb.aoc$"
 
+title "Crusader Ball Lightning by Silent_Warrior"
+restriction "/Metadata/Effects/Spells/lightning_orb/lightning_bolt.ao$"
+replacewith "/Metadata/Effects/Spells/monsters_effects/AtlasExiles/CrusaderMonsters/ball_lightning_bolt.ao$"
+restriction "/Metadata/Effects/Spells/lightning_orb/lightning_bolt.aoc$"
+replacewith "/Metadata/Effects/Spells/monsters_effects/AtlasExiles/CrusaderMonsters/ball_lightning_bolt.aoc$"
+restriction "/Metadata/Effects/Spells/lightning_orb/lightning_orb_orb.ao$"
+replacewith "/Metadata/Effects/Spells/monsters_effects/AtlasExiles/CrusaderMonsters/ball_lightning.ao$"
+restriction "/Metadata/Effects/Spells/lightning_orb/lightning_orb_orb.aoc$"
+replacewith "/Metadata/Effects/Spells/monsters_effects/AtlasExiles/CrusaderMonsters/ball_lightning.aoc$"
