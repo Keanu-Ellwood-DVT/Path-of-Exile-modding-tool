@@ -5,7 +5,7 @@ restriction "\.pet$"
 restriction "\.trl$"
 execute "aps310_pet"
 
-title "Disable fog, shadows, rain. Delve light hack for all lcoations (.env)"
+title "Disable fog, shadows, rain. Delve light hack for all locations (.env)"
 restriction "\.env$"
 execute "aps310_env"
 
