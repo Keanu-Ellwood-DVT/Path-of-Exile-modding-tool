@@ -9,11 +9,7 @@ title "Remove monster sounds (.aoc)"
 restriction "\.aoc$"
 execute "aps310_aoc_sound"
 
-title "Remove monster effects, particles (.aoc)"
-restriction "\.aoc$"
-execute "aps310_aoc_other"
-
-title "Disable fog, shadows. Uniform lighting (.env)"
+title "Disable fog, shadows, rain. Uniform lighting (.env)"
 restriction "\.env$"
 execute "aps310_env"
 
@@ -40,3 +36,7 @@ restriction "/Art/Textures/Monsters/.*\.dds$"
 restriction "/Art/Textures/NPC/.*\.dds$"
 restriction "/Art/Textures/Pet/.*\.dds$"
 execute "aps310_dds"
+
+title "[Optional] Remove monster effects, particles (.aoc)"
+restriction "\.aoc$"
+execute "aps310_aoc_other"
