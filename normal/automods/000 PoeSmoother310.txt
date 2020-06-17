@@ -20,17 +20,9 @@ exclude "/Microtransactions/.*"
 restriction "\.epk$"
 execute "aps310_epk"
 
-title "Disable fog (.env)"
+title "Disable fog, shadows, unifor lighting (.env)"
 restriction "\.env$"
-execute "aps310_env_fog"
-
-title "Disable shadows (.env)"
-restriction "\.env$"
-execute "aps310_env_shadows"
-
-title "Same lighting on all locations (.env)"
-restriction "\.env$"
-execute "aps310_env_light"
+execute "aps310_env"
 
 title "Remove dead bodies (.ot)"
 restriction "^\./Metadata/Monsters/Monster\.ot$"
