@@ -1,6 +1,6 @@
 name "000 PoeSmoother"
 
-title "Save only 1 emitter (.pet .trl)"
+title "Save only 1 spell emitter (.pet .trl)"
 restriction "\.pet$"
 restriction "\.trl$"
 execute "aps310_pet"
@@ -40,8 +40,3 @@ restriction "/Art/Textures/Monsters/.*\.dds$"
 restriction "/Art/Textures/NPC/.*\.dds$"
 restriction "/Art/Textures/Pet/.*\.dds$"
 execute "aps310_dds"
-
-title "[Optional] Remove non MTX effect package (.epk)"
-exclude "/Microtransactions/.*"
-restriction "\.epk$"
-execute "aps310_epk"
