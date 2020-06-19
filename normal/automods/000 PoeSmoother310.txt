@@ -13,20 +13,21 @@ title "Remove dead bodies (.ot)"
 restriction "^\./Metadata/Monsters/Monster\.ot$"
 execute "aps310_ot"
 
+title "Remove monster sounds (.aoc)"
+restriction "\.aoc$"
+execute "aps310_aoc_sound"
+
 title "Hide all MTX (.mat)"
 exclude "portal"
 restriction "/Art/Microtransactions/.*\.mat$"
 execute "aps310_hide_mat"
 
-title "Remove monster sounds (.aoc)"
-restriction "\.aoc$"
-execute "aps310_aoc_sound"
 
-title "Remove monster effects, particles (.aoc)"
+title "[Potato] Remove monster effects, particles (.aoc)"
 restriction "\.aoc$"
 execute "aps310_aoc_other"
 
-title "Remove some effects from .epk"
+title "[Potato] Remove some effects from .epk"
 restriction "\.epk$"
 execute "aps310_epk"
 
