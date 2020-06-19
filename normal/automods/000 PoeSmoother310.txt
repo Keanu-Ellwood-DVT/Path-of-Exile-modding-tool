@@ -17,12 +17,6 @@ title "Remove monster sounds (.aoc)"
 restriction "\.aoc$"
 execute "aps310_aoc_sound"
 
-title "Hide all MTX (.mat)"
-exclude "portal"
-restriction "/Art/Microtransactions/.*\.mat$"
-execute "aps310_hide_mat"
-
-
 title "[Potato] Remove monster effects, particles (.aoc)"
 restriction "\.aoc$"
 execute "aps310_aoc_other"
@@ -45,6 +39,11 @@ restriction "/Art/Textures/Monsters/.*\.dds$"
 restriction "/Art/Textures/NPC/.*\.dds$"
 restriction "/Art/Textures/Pet/.*\.dds$"
 execute "aps310_dds"
+
+title "[Potato] Hide all MTX (.mat)"
+exclude "portal"
+restriction "/Art/Microtransactions/.*\.mat$"
+execute "aps310_hide_mat"
 
 title "[Optional] DD/VD/Desecrate - Remove all effects"
 restriction "detonate_dead.*\.ao$"
