@@ -1,26 +1,21 @@
 name "002 BotSmoother"
 
-title "Zero particles effects (.pet)"
+title "Null particles effects (.pet)"
 restriction "\.pet$"
-execute "aps310_pet"
+execute "zero_pet"
 
-title "Remove monster sounds (.aoc)"
+title "Null .aoc"
 exclude "/Microtransactions/.*"
 restriction "\.aoc$"
-execute "aps310_aoc_sound"
+execute "zero_aoc"
 
-title "Remove monster effects, particles (.aoc)"
-exclude "/Microtransactions/.*"
-restriction "\.aoc$"
-execute "aps310_aoc_other"
-
-title "Zero skill effects (.epk)"
+title "Null skill effects (.epk)"
 restriction "\.epk$"
-execute "aps310_epk"
+execute "zero_epk"
 
 title "Remove dead bodies (.ot)"
 restriction "^\./Metadata/Monsters/Monster\.ot$"
-execute "aps310_ot"
+execute "zero_ot"
 
 title "[Potato] Repack textures to save VRAM (.dds)"
 exclude "/Art/2DItems/.*\.dds$"                           # 2D Armour flasks do not resize
@@ -35,27 +30,27 @@ restriction "/Art/Textures/Misc/.*\.dds$"
 restriction "/Art/Textures/Monsters/.*\.dds$"
 restriction "/Art/Textures/NPC/.*\.dds$"
 restriction "/Art/Textures/Pet/.*\.dds$"
-execute "aps310_dds"
+execute "zero_dds"
 
 title "[Optional] Null .ao"
 restriction "\.ao$"
-execute "aps310_ao"
+execute "zero_ao"
 
 title "[Optional] Null .atlas" 
 restriction "\.atlas$"
-execute "aps310_atlas"
+execute "zero_atlas"
 
 title "[Optional] Null .arm"
 restriction "\.arm$"
-execute "aps310_arm"
+execute "zero_arm"
 
 title "[Optional] Null .dlp"
 restriction "\.dlp$"
-execute "aps310_dlp"
+execute "zero_dlp"
 
 title "[Optional] Null .mtd"
 restriction "\.mtd$"
-execute "aps310_mtd"
+execute "zero_mtd"
 
 title "[Bot] Null env files (.env)"
 restriction "\.env$"
@@ -63,11 +58,11 @@ execute "zero_env"
 
 title "[Bot] Remove all players"
 restriction "^\./Metadata/Characters/Character.otc$"
-execute "aps310_otc"
+execute "zero_otc"
 
 title "[Bot] Remove all monsters"
 restriction "^\./Metadata/Monsters/Monster.otc$"
-execute "aps310_otc"
+execute "zero_otc"
 
 title "[Bot] Remove ALL materials (.mat)"
 exclude "portal"
