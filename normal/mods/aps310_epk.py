@@ -16,7 +16,7 @@ masterfilter_exclude=[
 def execute(filename, backupfiledata, modifyggpk):
     filedata, encoding, bom = modifyggpk.stringcleanup(backupfiledata, "UTF-16-LE")
     filedatamod = filedata
-    filedatamod = re.sub(r"""^((?!aura).)*$""", # lines without aura lines
+    filedatamod = re.sub(r"""^((?!aura|prophecy|beast).)*$""",
                          r'',
                          filedatamod,
                          flags=re.MULTILINE|re.IGNORECASE|re.VERBOSE)
