@@ -8,6 +8,9 @@ masterfilter_exclude=[
 
 # we null this
 condition=[
+   "SoundEvents",
+   "ScreenShake",
+   "SoundParams",
    "ParticleEffects",
    "DecalEvents",
    "Lights",
@@ -15,7 +18,7 @@ condition=[
    "AnimatedRender",
    "TrailsEffects",
    "EffectPack",
-   "BoneGroupTrail",
+   "BoneGroupTrail",   
    ]
 
 def execute(filename, backupfiledata, modifyggpk):
