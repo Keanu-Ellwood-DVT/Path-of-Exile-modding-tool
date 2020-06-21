@@ -3,7 +3,7 @@ name "000 PoeSmoother"
 title "Reduce (not remove) spell effects (.pet .trl)"
 restriction "\.pet$"
 restriction "\.trl$"
-execute "aps310_pet"
+execute "zero_pet"
 
 title "Disable fog, shadows, rain. Add lighting to dark areas (.env)"
 restriction "\.env$"
