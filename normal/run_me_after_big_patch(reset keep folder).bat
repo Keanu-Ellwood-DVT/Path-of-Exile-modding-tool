@@ -3,21 +3,21 @@ REM Quick deleting old backup folder keep
 CD keep
 
 if errorlevel 1 (
-	pause
+	timeout 5
 	exit
 )
 
 DEL /F/Q/S *.* > NUL
 
 if errorlevel 1 (
-	pause
+	timeout 5
 	exit
 )
 
 CD ..
 
 if errorlevel 1 (
-	pause
+	timeout 5
 	exit
 )
 
