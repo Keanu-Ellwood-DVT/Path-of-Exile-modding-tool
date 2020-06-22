@@ -15,3 +15,4 @@ conduit_sigil
 league_affliction
 league_delirium
 league_harvest
+/ground_effects
